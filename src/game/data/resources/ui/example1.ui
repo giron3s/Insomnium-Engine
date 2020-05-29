@@ -1,0 +1,307 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndBtnDemo",
+        "title": "Button demo",
+        "enable": true,
+        "position": [ 15, 15 ],
+        "visible": true,
+        "layout": 
+        {
+            "type": "GroupLayout"
+        },
+        "child": [
+            {
+                "type": "class Framework::GUI::UILabel",
+                "name": "lbl1",
+                "caption": "Push buttons"
+            },
+            {
+                "type": "class Framework::GUI::UIButton",
+                "name": "bnt1",
+                "caption": "Pain button",
+                "tooltip" : "short tooltip"
+            },
+            {
+                "type": "class Framework::GUI::UIButton",
+                "name": "bnt2",
+                "caption": "Styled",
+                "icon" : 128640,
+                "backgroundColor" : [ 0, 0, 255, 25 ],
+                "tooltip" : "This button has a fairly long tooltip. It is so long, in fact, that the shown text will span several lines."
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lbl2",
+                "caption" : "Toggle buttons"
+            },
+            {
+                "type": "class Framework::GUI::UIButton",
+                "name": "btn3",
+                "caption": "Toggle me",
+                "flag": "eToggleButton"
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lbl3",
+                "caption" : "Radio buttons"
+            },
+            {
+                "type" : "class Framework::GUI::UIButton",
+                "name" : "btn4",
+                "caption" : "Radio button 1",
+                "flag" : "eRadioButton"
+            },
+            {
+                "type" : "class Framework::GUI::UIButton",
+                "name" : "btn5",
+                "caption" : "Radio button 2",
+                "flag" : "eRadioButton"
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lb5",
+                "caption" : "A tool palette"
+            },
+            {
+                "type" : "class Framework::GUI::UIWidget",
+                "name" : "wdgtTools",
+                "layout" :
+                {
+                  "type": "BoxLayout",
+                  "orientation" : "eHorizontal",
+                  "alignment" : "eMiddle",
+                  "margin" : 0,
+                  "spacing" : 6
+                },
+                "child" : 
+                [
+                    {
+                        "type" : "class Framework::GUI::UIToolButton",
+                        "name" : "tbtnCloud",
+                        "icon" : 9729
+                    },
+                    {
+                        "type" : "class Framework::GUI::UIToolButton",
+                        "name" : "tbtnFF",
+                        "icon" : 9193
+                    },
+                    {
+                        "type" : "class Framework::GUI::UIToolButton",
+                        "name" : "tbtnCompass",
+                        "icon" : 59176
+                    },
+                    {
+                        "type" : "class Framework::GUI::UIToolButton",
+                        "name" : "tbtnInstall",
+                        "icon" : 59256
+                    }
+                ]
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblPopupBnts",
+                "caption" : "Popup buttons"
+            },
+            {
+                "type" : "class Framework::GUI::UIPopupButton",
+                "name" : "popupBtn",
+                "icon" : 59157
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblPopup",
+                "caption" : "Arbitrary widgets can be placed here"
+            }
+        ]
+    },
+    {
+        "type" : "class Framework::GUI::UIWindow",
+        "name" : "wndWidgetDemo",
+        "title" : "Basic widget",
+        "position" : [270, 15],
+        "layout" :
+        {
+            "type" : "GroupLayout"
+        }, 
+        "child" :
+        [
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblMessageDialog",
+                "caption" : "Message dialog"
+            },
+            {
+                "type" : "class Framework::GUI::UIWidget",
+                "name" : "wdgTool",
+                "layout" :
+                {
+                    "type" : "BoxLayout",
+                    "orientation" : "eHorizontal",
+                    "alignment" : "eMiddle",
+                    "margin" : 0,
+                    "spacing" : 6
+                },  
+                "child" :
+                [
+                    {
+                        "type" : "class Framework::GUI::UIButton",
+                        "name" : "btnInfo",
+                        "caption" : "Info"
+                    },
+                    {
+                        "type" : "class Framework::GUI::UIButton",
+                        "name" : "btnWarn",
+                        "caption" : "Warn"
+                    },
+                    {
+                        "type" : "class Framework::GUI::UIButton",
+                        "name" : "btnAsk",
+                        "caption" : "Ask"
+                    }
+                ]
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblImagePanel",
+                "caption" : "Image panel & scroll panel"
+            },
+            {
+                "type": "class Framework::GUI::UIVScrollPanel",
+                "name": "scroolPanel",
+                "fixedSize": [ 200, 200 ],
+                "child": [
+                    {
+                        "type": "class Framework::GUI::UIImagePanel",
+                        "name": "imagePanel",
+                        "thumbSize": 60,
+                        "spacing": 10,
+                        "imageDir": "data/resources/textures/icons"
+                    }
+                ]
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblFileDialog",
+                "caption" : "File dialog"
+            },
+            {
+                "type" : "class Framework::GUI::UIWidget",
+                "name" : "wdgTool",
+                "layout" :
+                {
+                    "type" : "BoxLayout",
+                    "orinetation" : "eHorizontal",
+                    "alignment" : "eMiddle",
+                    "margin" : 0,
+                    "spacing" : 6
+                },
+                "child" :
+                [
+                    {
+                        "type" : "class Framework::GUI::UIButton",
+                        "name" : "btnOpen",
+                        "caption" : "Open"
+                    },
+                    {
+                        "type" : "class Framework::GUI::UIButton",
+                        "name" : "btnClose",
+                        "caption" : "Close"
+                    }
+                ]
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblComboBox",
+                "caption" : "Combo box"
+            },
+            {
+                "type" : "class Framework::GUI::UIComboBox",
+                "name" : "cmbBox1",
+                "items" : [ "Combo box item 1", "Combo box item 2", "Combo box item 3" ]
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblCheckBox",
+                "caption" : "Check box"
+            },
+            {
+                "type" : "class Framework::GUI::UICheckBox",
+                "name" : "checkBox1",
+                "caption" : "Flag 1"
+            },
+            {
+                "type" : "class Framework::GUI::UICheckBox",
+                "name" : "checkBox2",
+                "caption" : "Flag 2"
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblProgressBar",
+                "caption" : "Progress bar"
+            },
+            {
+                "type" : "class Framework::GUI::UIProgressBar",
+                "name" : "pbar",
+                "caption" : "Progress bar"
+            },
+            {
+                "type" : "class Framework::GUI::UILabel",
+                "name" : "lblSlider",
+                "caption" : "Slider and text box"
+            },
+            {
+                "type" : "class Framework::GUI::UIWidget",
+                "name" : "wdgPanel",
+                "layout" :
+                {
+                    "type" : "BoxLayout",
+                    "orinetation" : "eHorizontal",
+                    "alignment" : "eMiddle",
+                    "margin" : 0,
+                    "spacing" : 20
+                },
+                "child" :
+                [
+                    {
+                        "type" : "class Framework::GUI::UISlider",
+                        "name" : "slider",
+                        "value" : 0.5
+                    },
+                    {
+                        "type" : "class Framework::GUI::UITextBox",
+                        "name" : "txtBox",
+                        "fixedSize" : [60, 25],
+                        "value" : "50",
+                        "units" : "%",
+                        "fontSize" : 20,
+                        "alignment": "eRight"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndSelectedImage",
+        "title" : "Image view",
+        "position": [ 550, 15 ],
+        "enable": true,
+        "visible": true,
+        "layout" :
+        {
+            "type" : "GroupLayout"
+        }, 
+        "child":
+        [
+            {
+                "type": "class Framework::GUI::UIImageView",
+                "name": "imageview1",
+                "image": "data/resources/textures/normal.dds",
+                "position": [ 0, 0 ],
+                "size": [ 200, 200 ],
+                "fixedSize": [ 200, 200 ]
+            }
+        ]
+    }
+]

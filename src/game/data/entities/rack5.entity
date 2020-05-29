@@ -1,0 +1,27 @@
+{
+    "prefabdefinition" :
+    {
+        "type": "class Framework::Entity",
+        "name": "rack5.entity",
+        "components": 
+        [
+            {
+                "type": "class Framework::RenderableCmp",
+                "model3d": "rack5",
+                "shadowcaster": true
+            },
+            {
+                "type": "class Framework::TransformCmp",
+                "position": [ 0.0, 0.0, 0.0 ],
+                "scale": [ 100.0, 100.0, 100.0 ]
+            },
+			{
+                "type": "class Framework::CatalogCmp",
+				"id": "rack5",
+                "name": "Rack",
+				"group": "Storages",
+				"icon": "rack5"
+            }
+        ]
+    }
+}

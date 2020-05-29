@@ -1,0 +1,70 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndAddScene",
+        "title": "@ADD_FLOOR",
+        "modal" :  true,
+        "centered" :  true,
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 1,
+            "rows": 3,
+            "margin": 20,
+            "orientation" :  "eHorizontal",
+            "vAlignment": [ "eFill", "eFill" ],
+            "hAlignment": [ "eFill", "eFill" ]
+        },
+        "child":
+        [
+		    {
+                "type": "class Framework::GUI::UILabel",
+                "name": "txtSceneName",
+                "caption": "@ENTER_FLOOR_NAME",
+				"fontsize" : 20,
+				"fixedSize": [ 360, 50 ]
+            },
+			{
+                "type": "class Framework::GUI::UITextBox",
+                "name": "inpSceneName",
+				"editable" : true,
+				"value" : "",
+                "units" : "%",
+                "fontSize" : 20,
+                "alignment": "eLeft",
+				"fixedSize": [ 360, 30 ]
+            },
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "AddSceneButtons",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 2,
+                    "rows": 1,
+                    "margin": 10,
+                    "orientation" :  "eVertical",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eMinimum", "eFill" ]
+                },
+				"child":
+                [
+				    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnAddSceneCreate",
+                        "caption": "@CREATE",
+                        "fixedSize": [ 170, 35 ],
+				        "action": "AddSceneCreate"
+			        },
+			        {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnAddSceneCancel",
+                        "caption": "@CANCEL",
+                        "fixedSize": [ 170, 35 ],
+				        "action": "AddSceneCancel"
+			        }
+                ]
+		    }
+        ]
+    }
+]

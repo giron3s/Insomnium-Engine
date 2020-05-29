@@ -1,0 +1,62 @@
+{
+    "models": 
+    [
+        {
+            "name": "roomshape_L",
+            "asset3d": "data/resources/models/roomshapes/L.model",
+			"asset2d": "data/resources/textures/roomshapes/L_wired.png",
+			"icon": "data/resources/textures/roomshapes/icons/L_icon.jpg"
+        },
+        {
+            "name": "roomshape_Pentagon",
+            "asset3d": "data/resources/models/roomshapes/Pentagon.model",
+			"asset2d": "data/resources/textures/roomshapes/Pentagon_wired.png",
+			"icon": "data/resources/textures/roomshapes/icons/Pentagon_icon.jpg"
+        },
+        {
+            "name": "roomshape_Rectangle",
+            "asset3d": "data/resources/models/roomshapes/Rectangle.model",
+			"asset2d": "data/resources/textures/roomshapes/Rectangle_wired.png",
+			"icon": "data/resources/textures/roomshapes/icons/Rectangle_icon.jpg"
+        },
+        {
+            "name": "roomshape_Square",
+            "asset3d": "data/resources/models/roomshapes/Square.model",
+			"asset2d": "data/resources/textures/roomshapes/Square_wired.png",
+			"icon": "data/resources/textures/roomshapes/icons/Square_icon.jpg"
+        }
+	],
+	// images for icons for rotated room shapes
+    "images":
+    [
+        {
+            "name": "roomshape_L90",
+            "file": "data/resources/textures/roomshapes/icons/L90_icon.jpg"
+        },
+        {
+            "name": "roomshape_L180",
+            "file": "data/resources/textures/roomshapes/icons/L180_icon.jpg"
+        },
+        {
+            "name": "roomshape_L270",
+            "file": "data/resources/textures/roomshapes/icons/L270_icon.jpg"
+        },
+        {
+            "name": "roomshape_Pentagon90",
+            "file": "data/resources/textures/roomshapes/icons/Pentagon90_icon.jpg"
+        },
+        {
+            "name": "roomshape_Pentagon180",
+            "file": "data/resources/textures/roomshapes/icons/Pentagon180_icon.jpg"
+        },
+        {
+            "name": "roomshape_Pentagon270",
+            "file": "data/resources/textures/roomshapes/icons/Pentagon270_icon.jpg"
+        },
+        {
+            "name": "roomshape_Rectangle90",
+            "file": "data/resources/textures/roomshapes/icons/Rectangle90_icon.jpg"
+        }
+	]
+	
+}

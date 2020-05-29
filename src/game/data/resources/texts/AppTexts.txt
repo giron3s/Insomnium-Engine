@@ -1,0 +1,144 @@
+ID	DEFAULT	DUTCH	SPANISH
+@ADD_FLOOR	Add Floor	NL Add Floor	Add Floor
+@ENTER_FLOOR_NAME	Enter name for new floor below.	NL Enter name for new floor below.	Enter name for new floor below.
+@CREATE	Create	NL Create	Create
+@CANCEL	Cancel	NL Cancel	Cancel
+@CLOSE	Close	NL Close	Close
+@START	Start	NL Start	Start
+@DONT_SHOW_NEXT_TIME	Don't show next time	NL Don't show next time	Don't show next time
+@SIGN_IN	Sign In	NL Sign In	Sign In
+@NEW	New	NL New	New
+@OPEN	Open	NL Open	Open
+@SAVE	Save	NL Save	Save
+@SETTINGS	Settings	NL Settings	Settings
+@EXIT	Exit	NL Exit	Exit
+@NEW_PROJECT	New Project	NL New Project	New Project
+@ENTER_PROECT_NAME	Enter name for new project below.	NL Enter name for new project below.	Enter name for new project below.
+@OBJECT_EDITOR	Object Editor	NL Object Editor	Object Editor
+@NAME	Name	NL Name	Name
+@TYPE	Type	NL Type	Type
+@IMAGE	Image	NL Image	Image
+@WIDTH	Width	NL Width	Width
+@HEIGHT	Height	NL Height	Height
+@DEPTH	Depth	NL Depth	Depth
+@ELEVATION	Elevation	NL Elevation	Elevation
+@ROTATION	Rotation	NL Rotation	Rotation
+@MAINTAIN_ASPECT_RATIO	Maintain aspect ratio	NL Maintain aspect ratio	Maintain aspect ratio
+@CHANGES_WILL_BE_LOST	Your changes will be lost	Your changes will be lost	Your changes will be lost
+@COMFIRMATION_CONTINUE	Are you sure you want to continue?	NL Are you sure you want to continue?	Are you sure you want to continue?
+@YES	Yes	NL Yes	Yes
+@NO	No	NL No	No
+@REMOVE_FLOOR	Remove Floor	Remove Floor	Remove Floor
+@GENERAL	General	NL General	General
+@LANGUAGE	Language	NL Language	Language
+@MEASUREMENT_UNITS	Measurement Units	NL Measurement Units	Measurement Units
+@METER	METER	NL METER	METER
+@CENTIMETER	CENTIMETER	NL CENTIMETER	CENTIMETER
+@YARD	YARD	NL YARD	YARD
+@FEET	FEET	NL FEET	FEET
+@INCHES	INCHES	NL INCHES	INCHES
+@LOG_LEVEL	Log Level	NL Log Level	Log Level
+@CRASH	CRASH	NL CRASH	CRASH
+@WARNING	WARNING	NL WARNING	WARNING
+@INFO	INFO	NL INFO	INFO
+@WORKSPACE	Workspace	NL Workspace	Workspace
+@PATH	Path	NL Path	Path
+@AUTOSAVE	Auto-Save	NL Auto-Save	Auto-Save
+@ENABLE	Enable	NL Enable	Enable
+@INTERVAL_MINUTES	Interval(minutes)	NL Interval(minutes)	Interval(minutes)
+@1_MINUTE	1 MINUTE	NL 1 MINUTE	1 MINUTE
+@3_MINUTES	3 MINUTES	NL 3 MINUTES	3 MINUTES
+@5_MINUTES	5 MINUTES	NL 5 MINUTES	5 MINUTES
+@10_MINUTES	10 MINUTES	NL 10 MINUTES	10 MINUTES
+@FTUETEXT1	"In the editor section you can plan rooms, add items, design interior, wall art and its material. You are able to work in 2D and 3D modes and to generate and photorealistic view after."	"NL In the editor section you can plan rooms, add items, design interior, wall art and its material. You are able to work in 2D and 3D modes and to generate and photorealistic view after."	"In the editor section you can plan rooms, add items, design interior, wall art and its material. You are able to work in 2D and 3D modes and to generate and photorealistic view after."
+@FTUETEXT2	"Add rooms and change measurements of walls according to your needs and necessary geometry. You can do the following with walls: move them, divide into parts or make them invisible. In order to change the geometry of a room use ""dots"" or drag them on each other and this way connect them."	"NL Add rooms and change measurements of walls according to your needs and necessary geometry. You can do the following with walls: move them, divide into parts or make them invisible. In order to change the geometry of a room use ""dots"" or drag them on each other and this way connect them."	"Add rooms and change measurements of walls according to your needs and necessary geometry. You can do the following with walls: move them, divide into parts or make them invisible. In order to change the geometry of a room use ""dots"" or drag them on each other and this way connect them."
+@FTUETEXT3	"Our catalogue includes more than 3K objects which belong to different categories such as ""kids"", ""decor"" and similar. Also, each categories can be found using a search. To add any object that you like can be put into a section of ""favorites"" where you can reach them easily. In order to transfer the object into your project just drag it into the area of the project."	"NL Our catalogue includes more than 3K objects which belong to different categories such as ""kids"", ""decor"" and similar. Also, each categories can be found using a search. To add any object that you like can be put into a section of ""favorites"" where you can reach them easily. In order to transfer the object into your project just drag it into the area of the project."	"Our catalogue includes more than 3K objects which belong to different categories such as ""kids"", ""decor"" and similar. Also, each categories can be found using a search. To add any object that you like can be put into a section of ""favorites"" where you can reach them easily. In order to transfer the object into your project just drag it into the area of the project."
+@FTUETEXT4	"You can change the colors and materials of any object in the catalogue as well as of walls, ceiling and floors. In order to do that select a necessary object and choose a ""painting roller"" in the emerging menu. Millions of colors, patterns and materials are at your service and for your creativity. The later are divided into such categories as ""wood"", ""wallpaper"", ""tiles"" and similar."	"NL You can change the colors and materials of any object in the catalogue as well as of walls, ceiling and floors. In order to do that select a necessary object and choose a ""painting roller"" in the emerging menu. Millions of colors, patterns and materials are at your service and for your creativity. The later are divided into such categories as ""wood"", ""wallpaper"", ""tiles"" and similar."	"You can change the colors and materials of any object in the catalogue as well as of walls, ceiling and floors. In order to do that select a necessary object and choose a ""painting roller"" in the emerging menu. Millions of colors, patterns and materials are at your service and for your creativity. The later are divided into such categories as ""wood"", ""wallpaper"", ""tiles"" and similar."
+@FTUETEXT5	"More than 3 million users have already recognized the value of designing floor plans in 2D mode. Once your floor plan in 2D mode is finished, switch to 3D mode and bring it to perfection. You can change height and size of objects. Find the switch of the modes on the right side on the menu."	"NL More than 3 million users have already recognized the value of designing floor plans in 2D mode. Once your floor plan in 2D mode is finished, switch to 3D mode and bring it to perfection. You can change height and size of objects. Find the switch of the modes on the right side on the menu."	"More than 3 million users have already recognized the value of designing floor plans in 2D mode. Once your floor plan in 2D mode is finished, switch to 3D mode and bring it to perfection. You can change height and size of objects. Find the switch of the modes on the right side on the menu."
+@FTUEHEADING1	Start	NL Start	Start
+@FTUEHEADING2	"Rooms, walls"	"NL Rooms, walls"	"Rooms, walls"
+@FTUEHEADING3	Catalogue	NL Catalogue	Catalogue
+@FTUEHEADING4	Settings of colors & materials	NL Settings of colors & materials	Settings of colors & materials
+@FTUEHEADING5	2D & 3D modes	NL 2D & 3D modes	2D & 3D modes
+@SELECT_VIEW_MODE	Select your view mode	NL Select view mode	Select your view mode
+@2D	2D	NL2D	2D
+@3D	3D	NL3D	3D
+@ZOOM	Zoom	NL Zoom	Zoom
+@PLUS_SIGN	+	NL+	+
+@MINUS_SIGN	-	NL-	-
+@UNTITLED	@UNTITLED	@UNTITLED	@UNTITLED
+@ERROR_PROJECT_NAME_EMPTY	Error: Project name cannot be empty!	NL Error: Project name cannot be empty!	Error: Project name cannot be empty!
+@ERROR_PROJECT_NAME_FORMAT	Error: Project name should only contain letters and numbers.	NL Error: Project name should only contain letters and numbers.	Error: Project name should only contain letters and numbers.
+@ERROR_FLOOR_NAME_EMPTY	Error: Floor name cannot be empty!	NL Error: Floor name cannot be empty!	Error: Floor name cannot be empty!
+@ERROR_FLOOR_NAME_FORMAT	Error: Floor name should only contain letters and numbers.	NL Error: Floor name should only contain letters and numbers.	Error: Floor name should only contain letters and numbers.
+@ERROR_FLOOR_UNSPECIFIED	Error: An unspecified error occurred during floor creation.	NL Error: An unspecified error occurred during floor creation.	Error: An unspecified error occurred during floor creation.
+@ERROR_FLOOR_NAME_EXISTS	Error: Floor with this name already exists!	NL Error: Floor with this name already exists!	Error: Floor with this name already exists!
+@COMFIRMATION_REMOVE	Are you sure you want to remove this floor from the project?	NL Are you sure you want to remove this floor from the project?	Are you sure you want to remove this floor from the project?
+@PLEASE_LOGIN	Please login to continue.	NL Please login to continue.	Please login to continue.
+@SIGN_UP	Sign Up	NL Sign Up	Sign Up
+@LOGIN	Login	NL Login	Login
+@FORGOT_PASSWORD	Forgot Password	NL Forgot Password	Forgot Password
+@STAY_LOGGED_IN	Stay logged-in	NL Stay logged-in	Stay logged-in
+@LOG	Log	NL Log	Log
+@LOG_START	------Log start------	------NL Log start------	------Log start------
+@LOGIN_INCORRECT	Username or password is incorrect.	NL Username or password is incorrect.	Username or password is incorrect.
+@LEVEL_1	LEVEL 1	NL LEVEL 1	LEVEL 1
+@LEVEL_2	LEVEL 2	NL LEVEL 2	LEVEL 2
+@LEVEL_3	LEVEL 3	NL LEVEL 3	LEVEL 3
+@1_MINUTE	1 MINUTE	NL 1 MINUTE	1 MINUTE
+@3_MINUTE	3 MINUTE	NL 3 MINUTE	3 MINUTE
+@5_MINUTE	5 MINUTE	NL 5 MINUTE	5 MINUTE
+@10_MINUTE	10 MINUTE	NL 10 MINUTE	10 MINUTE
+@THEMEBUILDER	Theme Builder	NL Theme Builder	Theme Builder
+@SIZES	Sizes	NL Sizes	Sizes
+@COLORS	Colors	NL Colors	Colors
+@DROPSHADOW	Drop Shadow	NL Drop Shadow	Drop Shadow
+@TRANSPARENTCOLOR	Transparent	NL Transparent	Transparent
+@BORDERCOLORDARK	Border Dark	NL Border Dark	Border Dark
+@BORDERCOLORLIGHT	Border Light	NL Border Light	Border Light
+@BORDERCOLORMEDIUM	Border Medium	NL Border Medium	Border Medium
+@TEXTCOLOR	Text	NL Text	Text
+@TEXTDISABLEDCOLOR	Text Disabled	NL Text Disabled	Text Disabled
+@TEXTSHADOWCOLOR	Text Shadow	NL Text Shadow	Text Shadow
+@STANDARDFONTSIZE	Standard Font Size	NL Standard Font Size	Standard Font Size
+@BUTTONFONTSIZE	Button Font Size	NL Button Font Size	Button Font Size
+@BUTTONCORNERRADIUS	Button Corner Radius	NL Button Corner Radius	Button Corner Radius
+@TESTLABEL	A test label	NL A test label	A test label
+@BORDERLIGHTCOLOR	Border Color Light	NL Border Color Light	Border Color Light
+@BORDERCOLORDARK	Border Color Dark	NL Border Color Dark	Border Color Dark
+@TRANSPARENTCOLOR	Transparent Color	NL Transparent Color	Transparent Color
+@SAMPLEWINDOW	Sample Window	NL Sample Window	Sample Window
+@PICK	Pick	NL Pick	Pick
+@RESET	Reset	NL Reset	Reset
+@WINDOWCOLORS	Window Colors	NL Window Colors	Window Colors
+@ICONCOLOR	Icon Color	NL Icon Color	Icon Color
+@BUTTONGRADIENTTOPFOCUSEDCOLOR	Button Gradient Top Focused	NL Button Gradient Top Focused	Button Gradient Top Focused
+@BUTTONGRADIENTBOTTOMFOCUSEDCOLOR	Button Gradient Bottom Focused	NL Button Gradient Bottom Focused	Button Gradient Bottom Focused
+@BUTTONGRADIENTTOPUNFOCUSEDCOLOR	Button Gradient Top Unfocused	NL Button Gradient Top Unfocused	Button Gradient Top Unfocused
+@BUTTONGRADIENTBOTTOMUNFOCUSEDCOLOR	Button Gradient Bottom Unfocused	NL Button Gradient Bottom Unfocused	Button Gradient Bottom Unfocused
+@BUTTONGRADIENTTOPPUSHEDCOLOR	Button Gradient Top Pushed	NL Button Gradient Top Pushed	Button Gradient Top Pushed
+@BUTTONGRADIENTBOTTOMPUSHEDCOLOR	Button Gradient Bottom Pushed	NL Button Gradient Bottom Pushed	Button Gradient Bottom Pushed
+@WINDOWFILLFOCUSEDCOLOR	Window Fill Focused	NL Window Fill Focused	Window Fill Focused
+@WINDOWFILLUNFOCUSEDCOLOR	Window Full Unfocused	NL Window Full Unfocused	Window Full Unfocused
+@WINDOWTITLEFOCUSEDCOLOR	Window Title Focused	NL Window Title Focused	Window Title Focused
+@WINDOWTITLEUNFOCUSEDCOLOR	Window Title Unfocused	NL Window Title Unfocused	Window Title Unfocused
+@WINDOWHEADERGRADIENTTOPCOLOR	Window Header Gradient Top	NL Window Header Gradient Top	Window Header Gradient Top
+@WINDOWHEADERGRADIENTBOTTOMCOLOR	Window Header Gradient Bottom	NL Window Header Gradient Bottom	Window Header Gradient Bottom
+@WINDOWHEADERSEPTOPCOLOR	Window Header Seperator Top	NL Window Header Seperator Top	Window Header Seperator Top
+@WINDOWHEADERSEPBOTTOMCOLOR	Window Header Seperator Bottom	NL Window Header Seperator Bottom	Window Header Seperator Bottom
+@WINDOWPOPUPCOLOR	Window Popup	NL Window Popup	Window Popup
+@WINDOWPOPUPTRANSPARENTCOLOR	Window Popup Transparent	NL Window Popup Transparent	Window Popup Transparent
+@WINDOWHEADERHEIGHT	Window Header Height	NL Window Header Height	Window Header Height
+@WINDOWCORNERRADIUS	Window Corner Radius	NL Window Corner Radius	Window Corner Radius
+@WINDOWDROPSHADOWSIZE	Window Drop Shadow Size	NL Window Drop Shadow Size	Window Drop Shadow Size
+@TEXTBOXFONTSIZE	TextBox Font Size	NL TextBox Font Size	TextBox Font Size
+@ICONSCALE	Icon Scale	NL Icon Scale	Icon Scale
+@FONTS	Fonts	NL Fonts	Fonts
+@LABELFONT	Label Font	NL Label Font	Label Font
+@BUTTONFONT	Button Font	NL Button Font	Button Font
+@HEADINGFONT	Heading Font	NL Heading Font	Heading Font
+@TEXTBOXFONT	TexBox Font	NL TextBox Font	TextBox Font
+@TABHEADINGFONT	Tab Heading Font	NL Tab Heading Font	Tab Heading Font
+@SAMPLEBUTTON	Sample Button	NL Sample Button	Sample Button
+@SAVETHEME	Save Theme	NL Save Theme	Save Theme
+@LOADTHEME	LoadTheme	NL Load Theme	Load Theme

@@ -1,0 +1,41 @@
+{
+    "models": 
+    [
+        {
+            "name": "table1",
+            "asset3d": "data/resources/models/table1.model",
+            "asset2d": "data/resources/textures/furnitures/table1_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/table1_icon.jpg"
+        },
+        {
+            "name": "table2",
+            "asset3d": "data/resources/models/table2.model",
+            "asset2d": "data/resources/textures/furnitures/table2_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/table2_icon.jpg"
+        },
+        {
+            "name": "table3",
+            "asset3d": "data/resources/models/table3.model",
+            "asset2d": "data/resources/textures/furnitures/table3.pmg",
+            "icon": "data/resources/textures/furnitures/icons/table3_icon.jpg"
+        },
+        {
+            "name": "table4",
+            "asset3d": "data/resources/models/table4.model",
+            "asset2d": "data/resources/textures/furnitures/table4_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/table4_icon.jpg"
+        },
+        {
+            "name": "table5",
+            "asset3d": "data/resources/models/table5.model",
+            "asset2d": "data/resources/textures/furnitures/table5_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/table5_icon.jpg"
+        },
+        {
+            "name": "table6",
+            "asset3d": "data/resources/models/table6.model",
+            "asset2d": "data/resources/textures/furnitures/table6_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/table6_icon.jpg"
+        }
+    ]
+}

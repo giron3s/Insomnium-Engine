@@ -1,0 +1,93 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndBtnDemo",
+        "title": "Button demo",
+        "enable": true,
+        "position": [ 15, 15 ],
+        "visible": true,
+        "layout": 
+        {
+			"type": "BoxLayout",
+			"spacing": 0,
+			"alignment": "eFill",
+			"orientation": "eHorizontal"
+        },
+        "child": 
+		[
+            {
+                "type" : "class Framework::GUI::UIPopupButton",
+                "name" : "popupBtnMainMenu",
+				"caption": "Hello",
+                "fixedSize": [ 65, 65 ],
+				
+				"popup":
+				{
+					"name" : "wndMainMenu",
+					"appearance": "MenuDown",
+					"layout": 
+					{
+						"type": "BoxLayout",
+						"spacing": 0,
+						"alignment": "eFill",
+						"orientation": "eVertical"
+					},
+					"size": [ 65, 0 ],
+					"items":
+					[
+						{
+							"type" : "class Framework::GUI::UIPopupButton",
+							"name": "menuItemClose",
+							"caption": "Close"
+						},
+						{
+							"type" : "class Framework::GUI::UIPopupButton",
+							"name" : "popupBtnCreate",
+							"caption": "Create New...",
+							"popup":
+							{
+								"name" : "wndCreateSubMenu",
+								"appearance": "MenuRight",
+								"size": [ 65, 0 ],
+								"items":
+								[
+									{
+										"type" : "class Framework::GUI::UIPopupButton",
+										"name": "menuItemCreateModel",
+										"caption": "Model"
+									},
+									{
+										"type" : "class Framework::GUI::UIPopupButton",
+										"name": "menuItemCreateLight",
+										"caption": "Light"
+									}
+								]
+							}
+						}
+					]
+				}
+				
+            },
+			{
+                "type": "class Framework::GUI::UIButton",
+                "name": "btnPrev",
+                "icon": 62000,
+                "fontSize": 18,
+                "fixedSize": [ 65, 65 ]
+            },
+            {
+                "type": "class Framework::GUI::UIButton",
+                "name": "btnForward",
+                "icon": 61869,
+                "fontSize": 18,
+                "fixedSize": [ 65, 65 ]
+            }
+		]
+    },
+    {
+        "type" : "class Framework::GUI::UIWindow",
+        "name" : "wndWidgetDemo",
+        "title" : "Basic widget",
+        "position" : [270, 15]
+    }
+]

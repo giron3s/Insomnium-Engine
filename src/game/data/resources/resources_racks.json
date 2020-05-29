@@ -1,0 +1,41 @@
+{
+    "models": 
+    [
+        {
+            "name": "rack1",
+            "asset3d": "data/resources/models/rack1.model",
+            "asset2d": "data/resources/textures/furnitures/rack1_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/rack1_icon.jpg"
+        },
+        {
+            "name": "rack2",
+            "asset3d": "data/resources/models/rack2.model",
+            "asset2d": "data/resources/textures/furnitures/rack2_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/rack2_icon.jpg"
+        },
+        {
+            "name": "rack3",
+            "asset3d": "data/resources/models/rack3.model",
+            "asset2d": "data/resources/textures/furnitures/rack3_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/rack3_icon.jpg"
+        },
+        {
+            "name": "rack4",
+            "asset3d": "data/resources/models/rack4.model",
+            "asset2d": "data/resources/textures/furnitures/rack4_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/rack4_icon.jpg"
+        },
+        {
+            "name": "rack6",
+            "asset3d": "data/resources/models/rack6.model",
+            "asset2d": "data/resources/textures/furnitures/rack6_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/rack6_icon.jpg"
+        },
+        {
+            "name": "rack7",
+            "asset3d": "data/resources/models/rack7.model",
+            "asset2d": "data/resources/textures/furnitures/rack7_wired.png",
+            "icon": "data/resources/textures/furnitures/icons/rack7_icon.jpg"
+        }
+	]
+}

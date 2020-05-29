@@ -1,0 +1,26 @@
+{
+    "prefabdefinition" :
+    {
+        "type": "class Framework::Entity",
+        "name": "roomshape_Square.entity",
+        "components": 
+        [
+            {
+                "type": "class Framework::RenderableCmp",
+                "model3d": "roomshape_Square",
+				"flags": 65536
+            },
+            {
+                "type": "class Framework::TransformCmp",
+                "scale": [ 100.0, 100.0, 100.0 ]
+            },
+			{
+                "type": "class Framework::CatalogCmp",
+				"id": "roomshape_Square",
+                "name": "roomshape_Square",
+				"group": "RoomShapes",
+				"icon": "data/resources/textures/roomshapes/icons/Square_icon.jpg"
+            }
+        ] 
+    }
+}

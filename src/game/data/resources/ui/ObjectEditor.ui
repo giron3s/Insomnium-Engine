@@ -1,0 +1,216 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndObjectEditor",
+        "title": "@OBJECT_EDITOR",
+        "modal" :  true,
+        "centered" :  true,
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 2,
+            "rows": 2,
+            "margin": 30,
+            "orientation" :  "eHorizontal",
+            "vAlignment": [ "eFill", "eFill" ],
+            "hAlignment": [ "eMinimum", "eFill" ]
+        },
+        "child":
+        [
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "ObjectEditorLabels",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 1,
+                    "rows": 9,
+                    "margin": 0,
+                    "orientation" :  "eHorizontal",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eMinimum", "eFill" ]
+                },
+				"child":
+                [
+                    {
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjName",
+                        "caption": "@NAME",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 54 ]
+                    },
+                    {
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjType",
+                        "caption": "@TYPE",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 54 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjImage",
+                        "caption": "@IMAGE",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 152 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjWidth",
+                        "caption": "@WIDTH",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 54 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjHeight",
+                        "caption": "@HEIGHT",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 54 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjDepth",
+                        "caption": "@DEPTH",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 54 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjElevation",
+                        "caption": "@ELEVATION",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 54 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjRotation",
+                        "caption": "@ROTATION",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 54 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "txtObjAspectRatio",
+                        "caption": "@MAINTAIN_ASPECT_RATIO",
+						"fontsize" : 20,
+						"fixedSize": [ 180, 54 ]
+                    }
+                ]
+            },
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "ObjectEditorTextfields",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 1,
+                    "rows": 2,
+                    "margin": 0,
+					"spacing" : [0, 24],
+                    "orientation" :  "eHorizontal",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eMinimum", "eFill" ]
+                },
+				"child":
+                [
+                    {
+                        "type": "class Framework::GUI::UITextBox",
+                        "name": "inpObjName",
+						"editable" : true,
+						"value" : "NewObject",
+                        "units" : "%",
+						"fontSize" : 20,
+                        "alignment": "eRight",
+						"fixedSize": [ 180, 30 ]
+                    },
+                    {
+                        "type": "class Framework::GUI::UITextBox",
+                        "name": "inpObjType",
+						"editable" : true,
+						"value" : "Default",
+                        "units" : "%",
+                        "fontSize" : 20,
+                        "alignment": "eRight",
+						"fixedSize": [ 180, 30 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UIImageView",
+                        "name": "imgObjImage",
+						"fixedSize": [ 128, 128 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UITextBox",
+                        "name": "inpObjWidth",
+						"editable" : true,
+						"value" : "50",
+                        "units" : "%",
+                        "fontSize" : 20,
+                        "alignment": "eRight",
+						"fixedSize": [ 180, 30 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UITextBox",
+                        "name": "inpObjHeight",
+						"editable" : true,
+						"value" : "50",
+                        "units" : "%",
+                        "fontSize" : 20,
+                        "alignment": "eRight",
+						"fixedSize": [ 180, 30 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UITextBox",
+                        "name": "inpObjDepth",
+						"editable" : true,
+						"value" : "50",
+                        "units" : "%",
+                        "fontSize" : 20,
+                        "alignment": "eRight",
+						"fixedSize": [ 180, 30 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UITextBox",
+                        "name": "inpObjElevation",
+						"editable" : true,
+						"value" : "0",
+                        "units" : "%",
+                        "fontSize" : 20,
+                        "alignment": "eRight",
+						"fixedSize": [ 180, 30 ]
+                    },
+					{
+                        "type": "class Framework::GUI::UITextBox",
+                        "name": "inpObjRotation",
+						"editable" : true,
+						"value" : "0",
+                        "units" : "%",
+                        "fontSize" : 20,
+                        "alignment": "eRight",
+						"fixedSize": [ 180, 30 ]
+                    },
+					{
+					    "type" : "class Framework::GUI::UICheckBox",
+                        "name" : "cboxAspectRatio",
+                        "caption" : "",
+						"alignment": "eRight",
+						"fixedSize": [ 180, 30 ]
+				    }
+                ]
+            },
+			{
+                "type": "class Framework::GUI::UIButton",
+                "name": "btnSaveObjectEditor",
+                "caption": "@SAVE",
+                "fixedSize": [ 180, 54 ],
+				"action": "SaveObjectEditor"
+			},
+			{
+                "type": "class Framework::GUI::UIButton",
+                "name": "btnCancelObjectEditor",
+                "caption": "@CANCEL",
+                "fixedSize": [ 180, 54 ],
+				"action": "CancelObjectEditor"
+			}
+        ]
+    }
+]

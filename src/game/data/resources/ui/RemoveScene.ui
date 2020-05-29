@@ -1,0 +1,67 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndRemoveScene",
+        "title": "@REMOVE_FLOOR",
+        "modal" :  true,
+        "centered" :  true,
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 1,
+            "rows": 3,
+            "margin": 30,
+            "orientation" :  "eHorizontal",
+            "vAlignment": [ "eFill", "eFill" ],
+            "hAlignment": [ "eFill", "eFill" ]
+        },
+        "child":
+        [
+		    {
+                "type": "class Framework::GUI::UILabel",
+                "name": "txtRemoveSceneName",
+                "caption": "@COMFIRMATION_REMOVE",
+				"fontsize" : 20,
+				"fixedSize": [ 360, 70 ]
+            },
+			{
+                "type": "class Framework::GUI::UILabel",
+                "name": "txtSceneName",
+                "caption": "",
+				"fontsize" : 20,
+				"fixedSize": [ 360, 70 ]
+            },
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "RemoveSceneButtons",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 2,
+                    "rows": 1,
+                    "margin": 0,
+                    "orientation" :  "eHorizontal",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eMinimum", "eFill" ]
+                },
+				"child":
+                [
+				    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnRemoveSceneYes",
+                        "caption": "@YES",
+                        "fixedSize": [ 180, 54 ],
+				        "action": "RemoveSceneYes"
+			        },
+			        {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnRemoveSceneNo",
+                        "caption": "@NO",
+                        "fixedSize": [ 180, 54 ],
+				        "action": "RemoveSceneNo"
+			        }
+                ]
+		    }
+        ]
+    }
+]

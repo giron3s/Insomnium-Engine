@@ -1,0 +1,212 @@
+[
+    {
+        "id": "chair1",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair1",
+        "prefabfile": "chair1.entity"
+    },
+    {
+        "id": "chair2",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair2",
+        "prefabfile": "chair2.entity"
+    },
+    {
+        "id": "chair3",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair3",
+        "prefabfile": "chair3.entity"
+    },
+    {
+        "id": "chair4",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair4",
+        "prefabfile": "chair4.entity"
+    },
+    {
+        "id": "chair5",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair5",
+        "prefabfile": "chair5.entity"
+    },
+    {
+        "id": "chair6",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair6",
+        "prefabfile": "chair6.entity"
+    },
+    {
+        "id": "chair7",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair7",
+        "prefabfile": "chair7.entity"
+    },
+    {
+        "id": "chair8",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair8",
+        "prefabfile": "chair8.entity"
+    },
+    {
+        "id": "chair9",
+        "name": "Chair",
+        "group": "TablesAndChairs",
+        "icon": "chair9",
+        "prefabfile": "chair9.entity"
+    },
+    {
+        "id": "table1",
+        "name": "Table",
+        "group": "TablesAndChairs",
+        "icon": "table1",
+        "prefabfile": "table1.entity"
+    },
+    {
+        "id": "table2",
+        "name": "Table",
+        "group": "TablesAndChairs",
+        "icon": "table2",
+        "prefabfile": "table2.entity"
+    },
+    {
+        "id": "table3",
+        "name": "Table",
+        "group": "TablesAndChairs",
+        "icon": "table3",
+        "prefabfile": "table3.entity"
+    },
+    {
+        "id": "table4",
+        "name": "Table",
+        "group": "TablesAndChairs",
+        "icon": "table4",
+        "prefabfile": "table4.entity"
+    },
+    {
+        "id": "table5",
+        "name": "Table",
+        "group": "TablesAndChairs",
+        "icon": "table5",
+        "prefabfile": "table5.entity"
+    },
+    {
+        "id": "table6",
+        "name": "Table",
+        "group": "TablesAndChairs",
+        "icon": "table6",
+        "prefabfile": "table6.entity"
+    },
+    {
+        "id": "bed1",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed1",
+        "prefabfile": "bed1.entity"
+    },
+    {
+        "id": "bed2",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed2",
+        "prefabfile": "bed2.entity"
+    },
+    {
+        "id": "bed3",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed3",
+        "prefabfile": "bed3.entity"
+    },
+    {
+        "id": "bed4",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed4",
+        "prefabfile": "bed4.entity"
+    },
+    {
+        "id": "bed5",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed5",
+        "prefabfile": "bed5.entity"
+    },
+    {
+        "id": "bed6",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed6",
+        "prefabfile": "bed6.entity"
+    },
+    {
+        "id": "bed7",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed7",
+        "prefabfile": "bed7.entity"
+    },
+    {
+        "id": "bed8",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed8",
+        "prefabfile": "bed8.entity"
+    },
+    {
+        "id": "bed9",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed9",
+        "prefabfile": "bed9.entity"
+    },
+    {
+        "id": "bed10",
+        "name": "Double Bed",
+        "group": "Beds",
+        "icon": "bed10",
+        "prefabfile": "bed10.entity"
+    },
+    {
+        "id": "rack1",
+        "name": "Rack",
+        "group": "Storages",
+        "icon": "rack1",
+        "prefabfile": "rack1.entity"
+    },
+    {
+        "id": "rack2",
+        "name": "Rack",
+        "group": "Storages",
+        "icon": "rack2",
+        "prefabfile": "rack2.entity"
+    },
+    {
+        "id": "rack3",
+        "name": "Rack",
+        "group": "Storages",
+        "icon": "rack3",
+        "prefabfile": "rack3.entity"
+    },
+    {
+        "id": "rack4",
+        "name": "Rack",
+        "group": "Storages",
+        "icon": "rack4",
+        "prefabfile": "rack4.entity"
+    },
+    {
+        "id": "rack6",
+        "name": "Rack",
+        "group": "Storages",
+        "icon": "rack6",
+        "prefabfile": "rack6.entity"
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndLogDisplay",
+        "title": "@LOG",
+        "modal" :  true,
+        "centered" :  true,
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 1,
+            "rows": 2,
+            "margin": 30,
+            "orientation" :  "eHorizontal",
+            "vAlignment": [ "eFill" ],
+            "hAlignment": [ "eFill" ]
+        },
+        "child":
+        [
+		    {
+                "type": "class Framework::GUI::UIVScrollPanel",
+                "name": "LogScrollPanel",
+				"fixedSize": [ 760, 500 ],
+				"child":
+				[
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "LogDisplay",
+						"layout":
+						{
+							"type": "GridLayout",
+							"columns": 1,
+							"rows": 1,
+							"margin": 0,
+							"orientation" :  "eHorizontal",
+							"vAlignment": [ "eMinimum" ],
+							"hAlignment": [ "eMinimum" ]
+						},
+						"child":
+						[
+							{
+								"type": "class Framework::GUI::UILabel",
+								"name": "txtObjName",
+								"caption": "@LOG_START",
+								"fontsize" : 20,
+								"fixedSize": [ 360, 70 ]
+							}
+						]
+					}
+				]
+            },
+			{
+                "type": "class Framework::GUI::UIButton",
+                "name": "btnLogClose",
+                "caption": "@CLOSE",
+                "fixedSize": [ 180, 54 ],
+				"action": "LogClose"
+			}
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "prefabdefinition":
+    {
+        "type": "class Framework::Entity",
+        "name": "table2.entity",
+        "components": [
+            {
+                "type": "class Framework::RenderableCmp",
+                "model3d": "table2",
+                "shadowcaster": true
+            },
+            {
+                "type": "class Framework::TransformCmp",
+                "position": [ 0.0, 0.0, 0.0 ],
+                "scale": [ 100.0, 100.0, 100.0 ]
+            },
+			{
+                "type": "class Framework::CatalogCmp",
+				"id": "table2",
+                "name": "Table",
+				"group": "TablesAndChairs",
+				"icon": "table2"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "prefabdefinition" :
+    {
+        "type" : "class Framework::Entity",
+        "name" : "deadpool.entity",
+        "components":
+        [
+            {
+                "type": "class Framework::RenderableCmp",
+                "model3D": "deadpool",
+                "shadowcaster": "false"
+            },
+            {
+                "type": "class Framework::TransformCmp",
+                "position": [ 0.0, 0.0, 0.0 ],
+                "scale": [ 100.0, 100.0, 100.0 ]
+            }
+        ]
+    }
+}

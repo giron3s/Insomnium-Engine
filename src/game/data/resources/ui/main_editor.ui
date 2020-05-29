@@ -1,0 +1,35 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "root",
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 2,
+            "rows": 1,
+            "margin": 0,
+            "orientation" :  "eHorizontal",
+            "vAlignment": [ "eFill", "eFill" ],
+            "hAlignment": [ "eMinimum", "eFill" ]
+        },
+        "child": 
+        [
+            {
+                "type": "class Game::UICatalogView",
+                "name": "catalogView",
+                "fixedWidth" :  290,
+                "filterButtonSize" : [ 65, 65 ],
+                "filterButtonSpacing": 1,
+                "itemsThumbSize": 129,
+                "itemsSpacing": 2,
+                "itemsMargin": 2
+            },
+            {
+                "type": "class Game::UIFloorPlanner3D",
+                "name": "canvasGL",
+                "backgroundColor": [ 255, 255, 255, 255 ],
+                "sceneName": "main"
+            }
+        ]
+    }
+]

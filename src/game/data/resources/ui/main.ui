@@ -1,0 +1,246 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndMain",
+        "fillParent" :  true,
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 1,
+            "rows": 5,
+            "orientation": "eHorizontal",
+            "hAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill"],
+            "vAlignment": [ "eMinimum", "eMinimum", "eMinimum", "eMinimum", "eFill" ]
+        },
+        "child":
+        [
+            // Header - Logo
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "wdgHeader",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "rows": 1,
+                    "columns": 1,
+                    "margin": 20,
+                    "orientation": "eVertical",
+                    "hAlignment": [ "eMinimum" ],
+                    "vAlignment": [ "eMinimum" ]
+                },
+                "child":
+                [
+                    {
+                        "type": "class Framework::GUI::UIImageLabel",
+                        "name": "btnLogo",
+                        "icon": "logo",
+                        "fixedSize": [ 180, 54 ]
+                    }
+                ]
+            },
+
+            //Separator
+            {
+                "type": "class Framework::GUI::UIDrawRect",
+                "name": "line",
+                "fixedHeight": 2,
+                "color": [ 122, 122, 122, 255 ],
+                "layout" : 
+                {
+                    "type": "GroupLayout",
+                    "alignment": "eFill",
+                    "orientation": "eVertical"
+                }
+            },
+
+            // Main menu - Menu/Undo/Redo/save/Print/Settings/Help
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "wndMainMenu",
+                "layout":
+                {
+                    "type": "BoxLayout",
+                    "spacing": 1,
+                    "alignment": "eFill",
+                    "orientation": "eHorizontal"
+                },
+                "child":
+                [
+                    {
+                        "type": "class Framework::GUI::UIPopupButton",
+                        "name": "btnMenu",
+                        "icon": 61944,
+						"caption": "",
+                        "fixedSize": [ 65, 65 ],
+						
+						"popup":
+						{
+							"name" : "wndMainMenu",
+							"appearance": "MenuDown",
+							"layout": 
+							{
+								"type": "BoxLayout",
+								"spacing": 0,
+								"alignment": "eFill",
+								"orientation": "eVertical"
+							},
+							"size": [ 65, 0 ],
+							"items":
+							[
+                                {
+                                    "type": "class Framework::GUI::UIPopupButton",
+                                    "name": "menuItemNew",
+                                    "caption": "@NEW",
+                                    "captionAlignment": "eLeft",
+                                    "captionMargin": 15,
+									"action": "NewProject",
+                                    "fontSize": 20,
+                                    "fixedSize": [ 180, 45 ]
+                                },
+                                {
+                                    "type": "class Framework::GUI::UIPopupButton",
+                                    "name": "menuItemOpen",
+                                    "caption": "@OPEN",
+                                    "captionAlignment": "eLeft",
+                                    "captionMargin": 15,
+                                    "action": "LoadProject",
+                                    "fontSize": 20,
+                                    "fixedSize": [ 180, 45 ]
+                                },
+                                {
+                                    "type": "class Framework::GUI::UIPopupButton",
+                                    "name": "menuItemSave",
+                                    "captionAlignment": "eLeft",
+                                    "captionMargin": 15,
+                                    "caption": "@SAVE",
+                                    "action": "SaveProject",
+                                    "fontSize": 20,
+                                    "fixedSize": [ 180, 45 ]
+                                },
+                                {
+                                    "type": "class Framework::GUI::UIPopupButton",
+                                    "name": "menuItemSettings",
+                                    "caption": "@SETTINGS",
+                                    "captionAlignment": "eLeft",
+                                    "captionMargin": 15,
+                                    "action": "GotoSettings",
+                                    "fontSize": 20,
+                                    "fixedSize": [ 180, 45 ]
+                                },
+                                {
+                                    "type": "class Framework::GUI::UIPopupButton",
+                                    "name": "menuItemExit",
+                                    "caption": "@EXIT",
+                                    "captionAlignment": "eLeft",
+                                    "captionMargin": 15,
+                                    "action": "QuitApp",
+                                    "fontSize": 20,
+                                    "fixedSize": [ 180, 45 ]
+                                }
+							]
+						}
+						
+                    },
+                    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnToggleCatalogView",
+                        "icon": 62000,
+                        "fontSize": 18,
+                        "fixedSize": [ 65, 65 ],
+                        "action": "ToggleCatalogView",
+                        "flag": "eToggleButton",
+                        "pushed" :  true
+                    },
+                    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnPrev",
+                        "icon": 62000,
+                        "fontSize": 18,
+                        "fixedSize": [ 65, 65 ]
+                    },
+                    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnForward",
+                        "icon": 61869,
+                        "fontSize": 18,
+                        "fixedSize": [ 65, 65 ]
+                    },
+                    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnRemove",
+                        "icon": 62063,
+                        "fontSize": 18,
+                        "fixedSize": [ 65, 65 ],
+						"action": "DeleteSceneItems",
+						"enabled" :  false
+                    },
+					{
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnSave",
+                        "icon": 62009,
+                        "fontSize": 18,
+                        "fixedSize": [ 65, 65 ],
+						"action": "SaveProject"
+                    },
+                    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnSetting",
+                        "icon": 61788,
+                        "fontSize": 18,
+                        "fixedSize": [ 65, 65 ],
+						"action": "GotoSettings"
+                    },
+                    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnHelp",
+                        "icon": 61889,
+                        "fontSize": 18,
+                        "fixedSize": [ 65, 65 ]
+                    }
+                ]
+            },
+
+            //Separator
+            {
+                "type": "class Framework::GUI::UIDrawRect",
+                "name": "line",
+                "fixedHeight": 2,
+                "color": [ 122, 122, 122, 255 ]
+            },
+            // //Floor Planner
+            {
+                "type": "class Framework::GUI::UIWindow",
+                "name": "wndEditor",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 2,
+                    "rows": 1,
+                    "margin": 0,
+                    "orientation" :  "eHorizontal",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eMinimum", "eFill" ]
+                },
+                "child": 
+                [
+                    {
+                        "type": "class Game::UICatalogView",
+                        "name": "catalogView",
+                        "fixedWidth" :  290,
+                        "filterButtonSize" : [ 65, 65 ],
+                        "filterButtonSpacing": 1,
+                        "itemsThumbSize": 129,
+                        "itemsSpacing": 2,
+                        "itemsMargin": 2
+                    },
+                    {
+                        "type": "class Game::UIFloorPlanner3D",
+                        "name": "canvasGL",
+                        "backgroundColor": [ 255, 255, 255, 255 ],
+                        "projectFile": "data/resources/projects/project1.sh3d"
+                    }
+                ]
+            }
+        ]
+    }
+]

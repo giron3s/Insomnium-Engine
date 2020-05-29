@@ -1,0 +1,59 @@
+{
+    "models": 
+    [
+        {
+            "name": "chair1",
+            "asset3d": "data/resources/models/chair1.model",
+			"asset2d": "data/resources/textures/furnitures/chair1_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair1_icon.jpg"
+        },
+        {
+            "name": "chair2",
+            "asset3d": "data/resources/models/chair2.model",
+			"asset2d": "data/resources/textures/furnitures/chair2_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair2_icon.jpg"
+        },
+        {
+            "name": "chair3",
+            "asset3d": "data/resources/models/chair3.model",
+			"asset2d": "data/resources/textures/furnitures/chair3_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair3_icon.jpg"
+        },
+        {
+            "name": "chair4",
+            "asset3d": "data/resources/models/chair4.model",
+			"asset2d": "data/resources/textures/furnitures/chair4_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair4_icon.jpg"
+        },
+        {
+            "name": "chair5",
+            "asset3d": "data/resources/models/chair5.model",
+			"asset2d": "data/resources/textures/furnitures/chair5_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair5_icon.jpg"
+        },
+        {
+            "name": "chair6",
+            "asset3d": "data/resources/models/chair6.model",
+			"asset2d": "data/resources/textures/furnitures/chair6_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair6_icon.jpg"
+        },
+        {
+            "name": "chair7",
+            "asset3d": "data/resources/models/chair7.model",
+			"asset2d": "data/resources/textures/furnitures/chair7_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair7_icon.jpg"
+        },
+        {
+            "name": "chair8",
+            "asset3d": "data/resources/models/chair8.model",
+			"asset2d": "data/resources/textures/furnitures/chair8_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair8_icon.jpg"
+        },
+        {
+            "name": "chair9",
+            "asset3d": "data/resources/models/chair9.model",
+			"asset2d": "data/resources/textures/furnitures/chair9_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/chair9_icon.jpg"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "prefabdefinition" :
+    {
+        "type": "class Framework::Entity",
+        "name": "shelving1.entity",
+        "components": 
+        [
+            {
+                "type": "class Framework::RenderableCmp",
+                "model3d": "shelving1",
+                "shadowcaster": true
+            },
+            {
+                "type": "class Framework::TransformCmp",
+                "position": [ 0.0, 0.0, 0.0 ],
+                "scale": [ 100.0, 100.0, 100.0 ]
+            }
+        ]
+    }
+}

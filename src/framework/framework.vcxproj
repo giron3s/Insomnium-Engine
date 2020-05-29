@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\extern\include\nanovg\nanovg.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="audio\audiomixer.cpp" />
+    <ClCompile Include="audio\music.cpp" />
+    <ClCompile Include="audio\sound.cpp" />
+    <ClCompile Include="core\config.cpp" />
+    <ClCompile Include="core\FPS.cpp" />
+    <ClCompile Include="core\graphic\asset3dloaders.cpp" />
+    <ClCompile Include="core\graphic\assettransform.cpp" />
+    <ClCompile Include="core\graphic\zcompression.cpp" />
+    <ClCompile Include="core\logger.cpp" />
+    <ClCompile Include="core\math.cpp" />
+    <ClCompile Include="core\serialization\jsoncppbuild.cpp" />
+    <ClCompile Include="core\timer.cpp" />
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="engine\CmpManager.cpp" />
+    <ClCompile Include="engine\CmpManagerRegistry.cpp" />
+    <ClCompile Include="engine\components\cameracmp.cpp" />
+    <ClCompile Include="engine\components\catalogcmp.cpp" />
+    <ClCompile Include="engine\components\directlightcmp.cpp" />
+    <ClCompile Include="engine\components\entity.cpp" />
+    <ClCompile Include="engine\components\motioncmp.cpp" />
+    <ClCompile Include="engine\components\pointlightcmp.cpp" />
+    <ClCompile Include="engine\components\renderablecmp.cpp" />
+    <ClCompile Include="engine\components\spotlightcmp.cpp" />
+    <ClCompile Include="engine\components\transformcmp.cpp" />
+    <ClCompile Include="engine\entitymanager.cpp" />
+    <ClCompile Include="engine\fsm\action.cpp" />
+    <ClCompile Include="engine\fsm\state.cpp" />
+    <ClCompile Include="engine\fsm\statemachine.cpp" />
+    <ClCompile Include="engine\inputmanager.cpp" />
+    <ClCompile Include="engine\languagemanager.cpp" />
+    <ClCompile Include="engine\objectfactory.cpp" />
+    <ClCompile Include="engine\prefabmanager.cpp" />
+    <ClCompile Include="engine\project.cpp" />
+    <ClCompile Include="engine\resourcemanager.cpp" />
+    <ClCompile Include="engine\gamecontroller.cpp" />
+    <ClCompile Include="engine\script.cpp" />
+    <ClCompile Include="engine\ui.cpp" />
+    <ClCompile Include="graphic\asset2d.cpp" />
+    <ClCompile Include="graphic\asset3d.cpp" />
+    <ClCompile Include="graphic\camera.cpp" />
+    <ClCompile Include="graphic\directlight.cpp" />
+    <ClCompile Include="graphic\display.cpp" />
+    <ClCompile Include="graphic\flymotion.cpp" />
+    <ClCompile Include="graphic\fontrender.cpp" />
+    <ClCompile Include="graphic\freeflymotion.cpp" />
+    <ClCompile Include="graphic\freetypefont.cpp" />
+    <ClCompile Include="graphic\gui\button.cpp" />
+    <ClCompile Include="graphic\gui\checkbox.cpp" />
+    <ClCompile Include="graphic\gui\colorpicker.cpp" />
+    <ClCompile Include="graphic\gui\colorwheel.cpp" />
+    <ClCompile Include="graphic\gui\combobox.cpp" />
+    <ClCompile Include="graphic\gui\common.cpp" />
+    <ClCompile Include="graphic\gui\canvasgl.cpp" />
+    <ClCompile Include="graphic\gui\drawrect.cpp" />
+    <ClCompile Include="graphic\gui\imagelabel.cpp" />
+    <ClCompile Include="graphic\gui\imagepanel.cpp" />
+    <ClCompile Include="graphic\gui\imageview.cpp" />
+    <ClCompile Include="graphic\gui\label.cpp" />
+    <ClCompile Include="graphic\gui\layout.cpp" />
+    <ClCompile Include="graphic\gui\messagedialog.cpp" />
+    <ClCompile Include="graphic\gui\nanogui_resources.cpp" />
+    <ClCompile Include="graphic\gui\popup.cpp" />
+    <ClCompile Include="graphic\gui\popupbutton.cpp" />
+    <ClCompile Include="graphic\gui\progressbar.cpp" />
+    <ClCompile Include="graphic\gui\screen.cpp" />
+    <ClCompile Include="graphic\gui\slider.cpp" />
+    <ClCompile Include="graphic\gui\stackedwidget.cpp" />
+    <ClCompile Include="graphic\gui\tabheader.cpp" />
+    <ClCompile Include="graphic\gui\tabwidget.cpp" />
+    <ClCompile Include="graphic\gui\textbox.cpp" />
+    <ClCompile Include="graphic\gui\theme.cpp" />
+    <ClCompile Include="graphic\gui\vscrollpanel.cpp" />
+    <ClCompile Include="graphic\gui\widget.cpp" />
+    <ClCompile Include="graphic\gui\window.cpp" />
+    <ClCompile Include="graphic\light.cpp" />
+    <ClCompile Include="graphic\model3d.cpp" />
+    <ClCompile Include="graphic\noaarendertarget.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_rendertarget.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_filterrendertarget.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_fontrenderer.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_renderer.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_resources.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_shader.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_shaderdirectlight.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_shadermaterial.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_shaderpointlight.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_shaderspotlight.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_shadowmaprendertarget.cpp" />
+    <ClCompile Include="graphic\opengl\opengl_uniformblock.cpp" />
+    <ClCompile Include="graphic\PanAndZoomMotion.cpp" />
+    <ClCompile Include="graphic\pointlight.cpp" />
+    <ClCompile Include="graphic\procedural\bentplane.cpp" />
+    <ClCompile Include="graphic\procedural\circle.cpp" />
+    <ClCompile Include="graphic\procedural\cube.cpp" />
+    <ClCompile Include="graphic\procedural\cylinder.cpp" />
+    <ClCompile Include="graphic\procedural\grid.cpp" />
+    <ClCompile Include="graphic\procedural\plane.cpp" />
+    <ClCompile Include="graphic\procedural\proceduralutils.cpp" />
+    <ClCompile Include="graphic\procedural\sphere.cpp" />
+    <ClCompile Include="graphic\procedural\texturedquad.cpp" />
+    <ClCompile Include="graphic\procedural\torus.cpp" />
+    <ClCompile Include="graphic\procedural\triangle.cpp" />
+    <ClCompile Include="graphic\renderer.cpp" />
+    <ClCompile Include="graphic\rendertarget.cpp" />
+    <ClCompile Include="graphic\scene.cpp" />
+    <ClCompile Include="graphic\shader.cpp" />
+    <ClCompile Include="graphic\shadowmaprendertarget.cpp" />
+    <ClCompile Include="graphic\spotlight.cpp" />
+    <ClCompile Include="graphic\texture.cpp" />
+    <ClCompile Include="graphic\truetypefont.cpp" />
+    <ClCompile Include="graphic\walkingmotion.cpp" />
+    <ClCompile Include="precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\extern\glad\include\KHR\khrplatform.h" />
+    <ClInclude Include="audio\audiomixer.h" />
+    <ClInclude Include="audio\music.h" />
+    <ClInclude Include="audio\sound.h" />
+    <ClInclude Include="core\any.h" />
+    <ClInclude Include="core\config.h" />
+    <ClInclude Include="core\FPS.h" />
+    <ClInclude Include="core\graphic\asset3dloaders.h" />
+    <ClInclude Include="core\graphic\assettransform.h" />
+    <ClInclude Include="core\graphic\zcompression.h" />
+    <ClInclude Include="core\logger.h" />
+    <ClInclude Include="core\math.h" />
+    <ClInclude Include="core\opengl.h" />
+    <ClInclude Include="core\profiler.h" />
+    <ClInclude Include="core\serialization\jsoncpputils.h" />
+    <ClInclude Include="core\serialization\serializableobject.h" />
+    <ClInclude Include="core\signal.h" />
+    <ClInclude Include="core\timer.h" />
+    <ClInclude Include="core\types.h" />
+    <ClInclude Include="core\utils.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="engine\basemanager.h" />
+    <ClInclude Include="engine\CmpManager.h" />
+    <ClInclude Include="engine\CmpManagerRegistry.h" />
+    <ClInclude Include="engine\components\basecmp.h" />
+    <ClInclude Include="engine\components\cameracmp.h" />
+    <ClInclude Include="engine\components\catalogcmp.h" />
+    <ClInclude Include="engine\components\componenttype.h" />
+    <ClInclude Include="engine\components\directlightcmp.h" />
+    <ClInclude Include="engine\components\entity.h" />
+    <ClInclude Include="engine\components\motioncmp.h" />
+    <ClInclude Include="engine\components\object3dcmp.h" />
+    <ClInclude Include="engine\components\pointlightcmp.h" />
+    <ClInclude Include="engine\components\renderablecmp.h" />
+    <ClInclude Include="engine\components\spotlightcmp.h" />
+    <ClInclude Include="engine\components\transformcmp.h" />
+    <ClInclude Include="engine\container.h" />
+    <ClInclude Include="engine\containerfactory.h" />
+    <ClInclude Include="engine\entitymanager.h" />
+    <ClInclude Include="engine\fsm\action.h" />
+    <ClInclude Include="engine\fsm\state.h" />
+    <ClInclude Include="engine\fsm\statemachine.h" />
+    <ClInclude Include="engine\ICmpManager.h" />
+    <ClInclude Include="engine\inputmanager.h" />
+    <ClInclude Include="engine\languagemanager.h" />
+    <ClInclude Include="engine\managerfactory.h" />
+    <ClInclude Include="engine\message.h" />
+    <ClInclude Include="engine\objectfactory.h" />
+    <ClInclude Include="engine\prefabmanager.h" />
+    <ClInclude Include="engine\project.h" />
+    <ClInclude Include="engine\resourcemanager.h" />
+    <ClInclude Include="engine\gamecontroller.h" />
+    <ClInclude Include="engine\script.h" />
+    <ClInclude Include="engine\ui.h" />
+    <ClInclude Include="graphic\asset2d.h" />
+    <ClInclude Include="graphic\asset3d.h" />
+    <ClInclude Include="graphic\boundingbox.h" />
+    <ClInclude Include="graphic\boundingsphere.h" />
+    <ClInclude Include="graphic\camera.h" />
+    <ClInclude Include="graphic\directlight.h" />
+    <ClInclude Include="graphic\display.h" />
+    <ClInclude Include="graphic\flymotion.h" />
+    <ClInclude Include="graphic\fontrender.h" />
+    <ClInclude Include="graphic\freeflymotion.h" />
+    <ClInclude Include="graphic\freetypefont.h" />
+    <ClInclude Include="graphic\gui\alignment.h" />
+    <ClInclude Include="graphic\gui\button.h" />
+    <ClInclude Include="graphic\gui\buttontype.h" />
+    <ClInclude Include="graphic\gui\checkbox.h" />
+    <ClInclude Include="graphic\gui\colorpicker.h" />
+    <ClInclude Include="graphic\gui\colorwheel.h" />
+    <ClInclude Include="graphic\gui\combobox.h" />
+    <ClInclude Include="graphic\gui\common.h" />
+    <ClInclude Include="graphic\gui\canvasgl.h" />
+    <ClInclude Include="graphic\gui\dragdropdata.h" />
+    <ClInclude Include="graphic\gui\drawrect.h" />
+    <ClInclude Include="graphic\gui\entypo.h" />
+    <ClInclude Include="graphic\gui\iconposition.h" />
+    <ClInclude Include="graphic\gui\imagelabel.h" />
+    <ClInclude Include="graphic\gui\imagepanel.h" />
+    <ClInclude Include="graphic\gui\imageview.h" />
+    <ClInclude Include="graphic\gui\messagedialog.h" />
+    <ClInclude Include="graphic\gui\orientation.h" />
+    <ClInclude Include="graphic\gui\popup.h" />
+    <ClInclude Include="graphic\gui\popupbutton.h" />
+    <ClInclude Include="graphic\gui\progressbar.h" />
+    <ClInclude Include="graphic\gui\slider.h" />
+    <ClInclude Include="graphic\gui\stackedwidget.h" />
+    <ClInclude Include="graphic\gui\tabheader.h" />
+    <ClInclude Include="graphic\gui\tabwidget.h" />
+    <ClInclude Include="graphic\gui\textbox.h" />
+    <ClInclude Include="graphic\gui\toolbutton.h" />
+    <ClInclude Include="graphic\gui\uiobject.h" />
+    <ClInclude Include="graphic\gui\label.h" />
+    <ClInclude Include="graphic\gui\layout.h" />
+    <ClInclude Include="graphic\gui\nanogui_resources.h" />
+    <ClInclude Include="graphic\gui\screen.h" />
+    <ClInclude Include="graphic\gui\theme.h" />
+    <ClInclude Include="graphic\gui\vscrollpanel.h" />
+    <ClInclude Include="graphic\gui\widget.h" />
+    <ClInclude Include="graphic\gui\window.h" />
+    <ClInclude Include="graphic\light.h" />
+    <ClInclude Include="graphic\material.h" />
+    <ClInclude Include="graphic\model.h" />
+    <ClInclude Include="graphic\model2d.h" />
+    <ClInclude Include="graphic\model3d.h" />
+    <ClInclude Include="graphic\motion.h" />
+    <ClInclude Include="graphic\noaarendertarget.h" />
+    <ClInclude Include="graphic\object.h" />
+    <ClInclude Include="graphic\object2d.h" />
+    <ClInclude Include="graphic\object3d.h" />
+    <ClInclude Include="graphic\opengl\opengl.h" />
+    <ClInclude Include="graphic\opengl\opengl_rendertarget.h" />
+    <ClInclude Include="graphic\opengl\opengl_filterrendertarget.h" />
+    <ClInclude Include="graphic\opengl\opengl_fontrenderer.h" />
+    <ClInclude Include="graphic\opengl\opengl_noaarendertarget.h" />
+    <ClInclude Include="graphic\opengl\opengl_renderer.h" />
+    <ClInclude Include="graphic\opengl\opengl_resources.h" />
+    <ClInclude Include="graphic\opengl\opengl_shader.h" />
+    <ClInclude Include="graphic\opengl\opengl_shaderdirectlight.h" />
+    <ClInclude Include="graphic\opengl\opengl_shadermaterial.h" />
+    <ClInclude Include="graphic\opengl\opengl_shaderpointlight.h" />
+    <ClInclude Include="graphic\opengl\opengl_shaderspotlight.h" />
+    <ClInclude Include="graphic\opengl\opengl_shadowmaprendertarget.h" />
+    <ClInclude Include="graphic\opengl\opengl_uniformblock.h" />
+    <ClInclude Include="graphic\PanAndZoomMotion.h" />
+    <ClInclude Include="graphic\pointlight.h" />
+    <ClInclude Include="graphic\procedural\bentplane.h" />
+    <ClInclude Include="graphic\procedural\circle.h" />
+    <ClInclude Include="graphic\procedural\cube.h" />
+    <ClInclude Include="graphic\procedural\cylinder.h" />
+    <ClInclude Include="graphic\procedural\grid.h" />
+    <ClInclude Include="graphic\procedural\plane.h" />
+    <ClInclude Include="graphic\procedural\proceduralutils.h" />
+    <ClInclude Include="graphic\procedural\sphere.h" />
+    <ClInclude Include="graphic\procedural\texturedquad.h" />
+    <ClInclude Include="graphic\procedural\torus.h" />
+    <ClInclude Include="graphic\procedural\triangle.h" />
+    <ClInclude Include="graphic\projection.h" />
+    <ClInclude Include="graphic\renderer.h" />
+    <ClInclude Include="graphic\rendertarget.h" />
+    <ClInclude Include="graphic\scene.h" />
+    <ClInclude Include="graphic\shader.h" />
+    <ClInclude Include="graphic\shadowmaprendertarget.h" />
+    <ClInclude Include="graphic\spotlight.h" />
+    <ClInclude Include="graphic\texture.h" />
+    <ClInclude Include="graphic\truetypefont.h" />
+    <ClInclude Include="graphic\viewport.h" />
+    <ClInclude Include="graphic\walkingmotion.h" />
+    <ClInclude Include="precompiled.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CFB50437-6B90-4991-BAE7-D1B2D07C67C0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>framework</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\output\$(ProjectName)\$(Platform)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\output\$(ProjectName)\$(Platform)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\output\$(ProjectName)\$(Platform)\$(Configuration)\intermediate\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\output\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\output\$(ProjectName)\$(Platform)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;NANOGUI_EIGEN_DONT_ALIGN;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_SHARED;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..\..\src\extern\include;$(SolutionDir)..\..\src\extern\;$(SolutionDir)..\..\src\extern\include\Lua;$(SolutionDir)..\..\src\extern\LuaIntf;$(SolutionDir)..\..\src\extern\include\optick;$(SolutionDir)..\..\src\extern\jsoncpp-1.7.5\dist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;lua53.lib;DevIL.lib;freetype.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\src\extern\lib\$(Platform)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;NANOGUI_EIGEN_DONT_ALIGN;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_SHARED;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..\..\src\extern\include;$(SolutionDir)..\..\src\extern\;$(SolutionDir)..\..\src\extern\include\Lua;$(SolutionDir)..\..\src\extern\LuaIntf;$(SolutionDir)..\..\src\extern\include\optick;$(SolutionDir)..\..\src\extern\jsoncpp-1.7.5\dist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;lua53.lib;DevIL.lib;freetype.lib;OptickCore.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\src\extern\lib\$(Platform)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_LIB;NANOGUI_EIGEN_DONT_ALIGN;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_SHARED;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..\..\src\extern\include;$(SolutionDir)..\..\src\extern\;$(SolutionDir)..\..\src\extern\include\Lua;$(SolutionDir)..\..\src\extern\LuaIntf;$(SolutionDir)..\..\src\extern\include\optick;$(SolutionDir)..\..\src\extern\jsoncpp-1.7.5\dist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;lua53.lib;DevIL.lib;freetype.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\src\extern\lib\$(Platform)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;NANOGUI_EIGEN_DONT_ALIGN;_CRT_SECURE_NO_WARNINGS;NANOGUI_BUILD;NANOGUI_SHARED;NVG_BUILD;GLAD_GLAPI_EXPORT;GLAD_GLAPI_EXPORT_BUILD;_GLFW_BUILD_DLL;NVG_SHARED;GLFW_INCLUDE_NONE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>precompiled.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)..\..\src\extern\include;$(SolutionDir)..\..\src\extern\;$(SolutionDir)..\..\src\extern\include\Lua;$(SolutionDir)..\..\src\extern\LuaIntf;$(SolutionDir)..\..\src\extern\include\optick;$(SolutionDir)..\..\src\extern\jsoncpp-1.7.5\dist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;lua53.lib;DevIL.lib;freetype.lib;OptickCore.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\src\extern\lib\$(Platform)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

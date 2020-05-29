@@ -1,0 +1,81 @@
+{
+    "models": 
+    [
+        {
+            "name": "daxter",
+            "asset3d": "data/resources/models/daxter.model"
+        },
+        {
+            "name": "deadpool",
+            "asset3d": "data/resources/models/deadpool.model"
+        }
+    ],
+
+    "images":
+    [
+        {
+            "name": "logo",
+            "file": "data/resources/textures/logo.png"
+        },
+        {
+            "name": "united-kingdom",
+            "file": "data/resources/textures/united-kingdom.png"
+        },
+        {
+            "name": "italy",
+            "file": "data/resources/textures/italy.png"
+        },
+        {
+            "name": "russia",
+            "file": "data/resources/textures/russia.png"
+        },
+        {
+            "name": "spain",
+            "file": "data/resources/textures/spain.png"
+        },
+        {
+            "name": "germany",
+            "file": "data/resources/textures/germany.png"
+        },
+        {
+            "name": "ViewModeBtn",
+            "file": "data/resources/textures/ViewModeBtn.png"
+        },
+		{
+            "name": "Welcome",
+            "file": "data/resources/textures/Welcome2.png"
+        },
+        {
+            "name": "SweetHomeLogo",
+            "file": "data/resources/textures/SweetHomeLogo.png"
+        },
+        {
+            "name": "FTUEImage1",
+            "file": "data/resources/textures/FTUEImage1.png"
+        },
+		{
+            "name": "FTUEImage2",
+            "file": "data/resources/textures/FTUEImage2.png"
+        },
+		{
+            "name": "FTUEImage3",
+            "file": "data/resources/textures/FTUEImage3.png"
+        },
+		{
+            "name": "FTUEImage4",
+            "file": "data/resources/textures/FTUEImage4.png"
+        },
+		{
+            "name": "FTUEImage5",
+            "file": "data/resources/textures/FTUEImage5.png"
+        }
+    ],
+	
+	"projects":
+    [
+        "data/resources/projects/default.project",
+        "data/resources/projects/project1.sh3d",
+        "data/resources/projects/project2.sh3d",
+        "data/resources/projects/project3.sh3d"
+    ]
+}

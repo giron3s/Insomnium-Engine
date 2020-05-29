@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{50c189ec-de65-4adf-af09-985ac0809107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="catalogmanager.cpp" />
+    <ClCompile Include="catalogitem.cpp" />
+    <ClCompile Include="catalogview.cpp" />
+    <ClCompile Include="catalogfilter.cpp" />
+    <ClCompile Include="floorplanner3d.cpp" />
+    <ClCompile Include="appmanager.cpp" />
+    <ClCompile Include="objecteditormanager.cpp" />
+    <ClCompile Include="ftuemanager.cpp" />
+    <ClCompile Include="userconfig.cpp" />
+    <ClCompile Include="precompiled.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="thememanager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="catalogmanager.h" />
+    <ClInclude Include="catalogitem.h" />
+    <ClInclude Include="cataloggroup.h" />
+    <ClInclude Include="catalogview.h" />
+    <ClInclude Include="catalogfilter.h" />
+    <ClInclude Include="floorplanner3d.h" />
+    <ClInclude Include="appmanager.h" />
+    <ClInclude Include="objecteditormanager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ftuemanager.h" />
+    <ClInclude Include="userconfig.h" />
+    <ClInclude Include="precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="thememanager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\resources\ui\fileTab.ui" />
+    <None Include="data\resources\ui\title.ui" />
+    <None Include="data\resources\shaders\imageview.frag" />
+    <None Include="data\resources\shaders\imageview.vert" />
+    <None Include="data\resources\states\welcome.state" />
+    <None Include="data\resources\catalogs\furniture.catalog" />
+    <None Include="data\entities\bed2.entity" />
+    <None Include="data\entities\bed3.entity" />
+    <None Include="data\entities\chair1.entity" />
+    <None Include="data\entities\chair2.entity" />
+    <None Include="data\entities\chair3.entity" />
+    <None Include="data\entities\daxter.entity" />
+    <None Include="data\entities\deadpool.entity" />
+    <None Include="data\entities\rack1.entity" />
+    <None Include="data\entities\rack2.entity" />
+    <None Include="data\entities\rack3.entity" />
+    <None Include="data\entities\shelving1.entity" />
+    <None Include="data\entities\shelving2.entity" />
+    <None Include="data\entities\shelving3.entity" />
+    <None Include="data\entities\bed1.entity" />
+    <None Include="data\resources\ui\settings.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\resources\textures\test.jpg" />
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc" />
+  </ItemGroup>
+</Project>

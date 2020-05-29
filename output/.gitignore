@@ -1,0 +1,9 @@
+framework/*
+game/*
+tools/*
+tools-exporter/*
+tools-model-inspector/*
+tools-obj2engine/*
+tools-zcompress/*
+Win32/*
+x64/*

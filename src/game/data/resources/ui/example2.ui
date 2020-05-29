@@ -1,0 +1,10 @@
+[
+   {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndBtnDemo",
+        "title": "Form helper example",
+        "enable": true,
+        "position": [ 15, 15 ],
+        "visible": true
+   }
+]

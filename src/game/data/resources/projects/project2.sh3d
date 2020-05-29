@@ -1,0 +1,182 @@
+{
+    "projectName": "Project2",
+    "sample": true,
+    "scenes": 
+    [
+        {
+            "sceneName": "Ground Floor",
+            "rendertarget": "NoAA",
+            "rendertarget_clearcolor": [ 0.20000000298023224, 0.20000000298023224, 0.20000000298023224, 1 ],
+            "entities": 
+            [
+                {
+                    "type": "class Framework::Entity",
+                    "name": "camera3d",
+                    "components": [
+                        {
+                            "type": "class Framework::CameraCmp",
+                            "projection_type": "perspective",
+                            "z_range": [ 0.1, 5000.0 ],
+                            "fov": 45.0
+                        },
+                        {
+                            "type": "class Framework::TransformCmp",
+                            "position": [ 0.0, 100.0, 500.0 ]
+                        },
+                        {
+                            "type": "class Framework::MotionCmp",
+                            "motion_type": "walking",
+                            "pitch": 10.0,
+                            "yaw": 0.0,
+                            "keyboard_sensibility": 100,
+                            "mouse_sensibility": 70
+                        }
+                    ]
+                },
+                {
+                    "type": "class Framework::Entity",
+                    "name": "camera2d",
+                    "components": [
+                        {
+                            "type": "class Framework::CameraCmp",
+                            "projection_type": "orthographic",
+                            "z_range": [ 0.1, 3000.0 ],
+                            "near_height": 5.5 // to match (approx) fov in perspective projection
+                        },
+                        {
+                            "type": "class Framework::TransformCmp",
+                            "position": [ 0.0, 0.0, 1000.0 ]
+                        },
+                        {
+                            "type": "class Framework::MotionCmp",
+                            "motion_type": "pan&zoom",
+                            "z_range": [ 0.1, 3000.0 ],
+                            "keyboard_sensibility": 100,
+                            "mouse_sensibility": 70
+                        }
+                    ]
+                },
+                {
+                    "type": "class Framework::Entity",
+                    "name": "grid",
+                    "components": [
+                        {
+                            "type": "class Framework::RenderableCmp",
+                            "model2d": "#grid",
+                            "minorStep2D": 100.0,
+							"majorStep2D": 1000.0,
+							"minorStep3D": 20.0,
+							"majorStep3D": 100.0,
+							"size3D": 1000.0,
+                            "rescaleDistance": 2500.0,
+                            "minorLineWidth": 1.0,
+                            "majorLineWidth": 3.0,
+                            "color": [ 0.0, 0.5, 0.7 ]
+                        }
+                    ]
+                },
+                {
+                    "type": "class Framework::Entity",
+                    "name": "plane",
+                    "components": [
+                        {
+                            "type": "class Framework::RenderableCmp",
+                            "model3d": "#plane",
+                            "shadowcaster": false
+                        },
+                        {
+                            "type": "class Framework::TransformCmp",
+                            "position": [ 0.0, 0.0, 0.0 ],
+                            "scale": [ 1000.0, 0.0, 1000.0 ]
+                        }
+                    ]
+                },
+                {
+                    "type": "class Framework::Entity",
+                    "name": "bed1",
+                    "components": [
+                        {
+                            "type": "class Framework::RenderableCmp",
+                            "model3d": "bed1",
+                            "shadowcaster": true,
+                            "text": "my bed"
+                        },
+                        {
+                            "type": "class Framework::TransformCmp",
+                            "position": [ 0.0, 0.0, 0.0 ],
+                            "scale": [ 100.0, 100.0, 100.0 ]
+                        },
+                        {
+                            "type": "class Framework::CatalogCmp",
+                            "id": "bed1",
+                            "name": "Double Bed",
+                            "group": "Beds",
+                            "icon": "bed1"
+                        }
+                    ]
+                },
+                {
+                    "type": "class Framework::Entity",
+                    "name": "directlight1",
+                    "components": [
+                        {
+                            "type": "class Framework::DirectLightCmp",
+                            "ambient_color": [ 0.4, 0.4, 0.4 ],
+                            "diffuse_color": [ 0.4, 0.4, 0.4 ],
+                            "specular_color": [ 0.4, 0.4, 0.0 ],
+                            "shadow_map_size": [ 2048, 2048 ] // have shadows from this light source
+                        },
+                        {
+                            "type": "class Framework::TransformCmp",
+                            "position": [ 1.0, 1.0, -1.0 ] // = any_vertex-to-light vector
+                        }
+                        // if Directional light has TransformCmp, it should provide Only position
+                    ]
+                },
+                {
+                    "type": "class Framework::Entity",
+                    "name": "spotLight1",
+                    "components": [
+                        {
+                            "type": "class Framework::SpotLightCmp",
+                            "ambient_color": [ 0.5, 0.5, 0.5 ],
+                            "diffuse_color": [ 0.9, 0.9, 0.9 ],
+                            "specular_color": [ 0.5, 0.5, 0.5 ],
+                            "shadow_map_size": [ 1024, 1024 ], // have shadows from this light source
+                            "attenuation": 0.0000001,
+                            "cutoff": 2000.0,
+                            "cone_angle": 45.0,
+                            "cone_penumbra": 3.0
+                        },
+                        {
+                            "type": "class Framework::TransformCmp",
+                            "position": [ -100, 500, -250 ],
+                            "direction": [ 1, -5, 3 ]
+                        }
+                        // if Spot light has TransformCmp, it should Not provide scale
+                    ]
+                },
+                {
+                    "type": "class Framework::Entity",
+                    "name": "pointLight1",
+                    "components": [
+                        {
+                            "type": "class Framework::PointLightCmp",
+                            "ambient_color": [ 0.5, 0.5, 0.5 ],
+                            "diffuse_color": [ 0.9, 0.9, 0.9 ],
+                            "specular_color": [ 0.5, 0.5, 0.5 ],
+                            "shadow_map_size": [ 1024, 1024 ], // have shadows from this light source
+                            "attenuation": 0.001,
+                            "cutoff": 1000.0
+                        },
+                        {
+                            "type": "class Framework::TransformCmp",
+                            "position": [ 300, 500, 300 ]
+                        }
+                        // if Point light has TransformCmp, it should provide Only position
+                    ]
+                }
+            ]
+        }
+    ]
+}

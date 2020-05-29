@@ -1,0 +1,362 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndSettings",
+        "title": "@SETTINGS",
+        "modal" :  true,
+        "centered" :  true,
+		"layout":
+		{
+			"type": "GridLayout",
+			"columns": 1,
+			"rows": 2,
+			"margin": 0,
+			"orientation" :  "eHorizontal",
+			"vAlignment": [ "eFill", "eFill" ],
+			"hAlignment": [ "eMinimum", "eMiddle" ]
+		},
+        "child":
+        [
+            {
+                "type": "class Framework::GUI::UITabWidget",
+                "name": "tabWidgetSettings",
+				"fixedSize": [700, 450],
+                "tabSize": [200, 50],
+				"tabCaptions": [ "@GENERAL", "@LANGUAGE", "@LOG" ],
+				"activeTab": 0,
+				"tabContents":
+				[
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "TabGeneral",
+						"layout":
+						{
+							"type": "GridLayout",
+							"columns": 1,
+							"rows": 6,
+							"margin": 20,
+							"orientation" :  "eHorizontal",
+							"vAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ],
+							"hAlignment": [ "eMinimum", "eFill", "eFill", "eFill", "eFill", "eFill" ]
+						},
+						"child":
+						[
+							{
+								"type": "class Framework::GUI::UILabel",
+								"name": "GeneralHeading",
+								"caption": "@GENERAL",
+								"fontsize" : 20,
+								"fixedSize": [ 420, 30 ]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "SectionGeneral",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 3,
+									"rows": 1,
+									"margin": 10,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ],
+									"hAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UIWidget",
+										"name": "Spacer1",
+										"fixedSize": [40, 30]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "lbMeasurements",
+										"caption": "@MEASUREMENT_UNITS",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIComboBox",
+										"name": "ComboMeasurements",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ],
+										"Localize": true,
+										"items": [ "METER", "CENTIMETER", "YARD", "FEET", "INCHES"] 
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UILabel",
+								"name": "WorkspaceHeading",
+								"caption": "@WORKSPACE",
+								"fontsize" : 20,
+								"fixedSize": [ 420, 30 ]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "SectionWorkspace",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 3,
+									"rows": 1,
+									"margin": 10,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill", "eFill" ],
+									"hAlignment": [ "eFill", "eFill", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UIWidget",
+										"name": "Spacer3",
+										"fixedSize": [40, 30]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "lbMeasurements",
+										"caption": "@PATH",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "inpMeasurementValue",
+										"editable" : true,
+										"value" : "c:/SweetHome3D",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eLeft",
+										"fixedSize": [ 200, 30 ]
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UILabel",
+								"name": "AutosaveHeading",
+								"caption": "@AUTOSAVE",
+								"fontsize" : 20,
+								"fixedSize": [ 420, 30 ]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "SectionAutosave",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 3,
+									"rows": 2,
+									"margin": 10,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ],
+									"hAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UIWidget",
+										"name": "Spacer4",
+										"fixedSize": [40, 50]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "lbMeasurements",
+										"caption": "@ENABLE",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIComboBox",
+										"name": "ComboAutosaveEnable",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ],
+										"Localize": true,
+										"items": [ "YES", "NO" ] 
+									},
+									{
+										"type": "class Framework::GUI::UIWidget",
+										"name": "Spacer5",
+										"fixedSize": [40, 50]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "lbLogLevel",
+										"caption": "@INTERVAL_MINUTES",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIComboBox",
+										"name": "ComboAutosaveInterval",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ],
+										"Localize": true,
+										"items": [ "1 MINUTE", "3 MINUTES", "5 MINUTES", "10 MINUTES" ]  
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "TabLanguage",
+						"layout":
+						{
+							"type": "GridLayout",
+							"columns": 2,
+							"rows": 1,
+							"margin": 20,
+							"orientation" :  "eHorizontal",
+							"vAlignment": [ "eFill", "eFill" ],
+							"hAlignment": [ "eMinimum", "eFill" ]
+						},
+						"child":
+						[
+							{
+								"type": "class Framework::GUI::UILabel",
+								"name": "lbLanguage",
+								"caption": "@LANGUAGE",
+								"fontsize" : 20,
+								"fixedSize": [ 200, 30 ]
+							},
+							{
+								"type": "class Framework::GUI::UIComboBox",
+								"name": "ComboLanguage",
+								"fontsize" : 20,
+								"fixedSize": [ 200, 30 ],
+								"items": [ "ENGLISH", "DUTCH", "SPANISH" ] 
+							}
+						]
+					},
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "TabLogs",
+						"layout":
+						{
+							"type": "GridLayout",
+							"columns": 1,
+							"rows": 3,
+							"margin": 20,
+							"orientation" :  "eHorizontal",
+							"vAlignment": [ "eFill", "eFill" ],
+							"hAlignment": [ "eMinimum", "eFill" ]
+						},
+						"child":
+						[
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "TabLanguage",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 2,
+									"rows": 1,
+									"margin": 0,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill" ],
+									"hAlignment": [ "eMinimum", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "lbLogLevel",
+										"caption": "@LOG_LEVEL",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIComboBox",
+										"name": "ComboLogLevel",
+										"fontsize" : 20,
+										"fixedSize": [ 200, 30 ],
+										"Localize": true,
+										"items": [ "LEVEL 1", "LEVEL 2", "LEVEL 3" ] 
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "Spacer2",
+								"fixedSize": [650, 30]
+							},
+							{
+								"type": "class Framework::GUI::UIVScrollPanel",
+								"name": "LogScrollPanel",
+								"fixedSize": [ 650, 300 ],
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UIWidget",
+										"name": "LogDisplay",
+										"layout":
+										{
+											"type": "GridLayout",
+											"columns": 1,
+											"rows": 1,
+											"margin": 0,
+											"orientation" :  "eHorizontal",
+											"vAlignment": [ "eMinimum" ],
+											"hAlignment": [ "eMinimum" ]
+										},
+										"child":
+										[
+											{
+												"type": "class Framework::GUI::UILabel",
+												"name": "txtObjName",
+												"caption": "@LOG_START",
+												"fontsize" : 20,
+												"fixedSize": [ 360, 30 ]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+            },
+			{
+				"type": "class Framework::GUI::UIWidget",
+				"name": "SettinsButtons",
+				"layout":
+				{
+					"type": "GridLayout",
+					"columns": 4,
+					"rows": 1,
+					"margin": 10,
+					"orientation" :  "eHorizontal",
+					"vAlignment": [ "eFill", "eFill" ],
+					"hAlignment": [ "eMinimum", "eFill" ]
+				},
+				"child":
+				[
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "Spacer6",
+						"fixedSize": [265, 40]
+					},
+				    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnSettingsSave",
+                        "caption": "@SAVE",
+                        "fixedSize": [ 140, 40 ],
+				        "action": "SettingsSave"
+			        },
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "Spacer7",
+						"fixedSize": [20, 40]
+					},
+			        {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnSettingsCancel",
+                        "caption": "@CANCEL",
+                        "fixedSize": [ 140, 40 ],
+				        "action": "SettingsCancel"
+			        }
+				]
+			}
+        ]
+    }
+]

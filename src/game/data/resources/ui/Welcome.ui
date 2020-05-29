@@ -1,0 +1,188 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndWelcome",
+		"title": "",
+        "modal" :  true,
+        "centered" :  true,
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 1,
+            "rows": 1,
+            "margin": 0,
+            "orientation" :  "eHorizontal",
+            "vAlignment": [ "eFill", "eFill", "eFill" ],
+            "hAlignment": [ "eFill", "eFill", "eFill" ]
+        },
+        "child":
+        [
+			{
+				"type": "class Framework::GUI::UIImageView",
+				"name": "imgWelcomeBackground",
+				"fixedSize": [ 1456, 800 ],
+				"icon": "Welcome",
+				"layout":
+				{
+					"type": "GridLayout",
+					"columns": 3,
+					"rows": 1,
+					"margin": 0,
+					"orientation" :  "eVertical",
+					"vAlignment": [ "eMiddle", "eMiddle", "eMiddle" ],
+					"hAlignment": [ "eFill", "eFill", "eFill" ]
+				},
+				"child":
+				[
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "WelcomePanelLeft",
+						"fixedSize": [ 600, 690 ]
+					},
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "WelcomePanelMiddle",
+						"fixedSize": [ 256, 590 ],
+						"layout":
+						{
+							"type": "GridLayout",
+							"columns": 1,
+							"rows": 4,
+							"margin": 0,
+							"orientation" :  "eHorizontal",
+							"vAlignment": [ "eMiddle", "eMiddle", "eMiddle", "eMinimum" ],
+							"hAlignment": [ "eMiddle", "eMiddle", "eMiddle", "eMiddle" ]
+						},
+						"child":
+						[
+							{
+								"type": "class Framework::GUI::UIImageView",
+								"name": "imgWelcomeLogo",
+								"fixedSize": [ 256, 256 ],
+								"icon": "SweetHomeLogo"
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "WelcomeMessage",
+								"fixedSize": [ 256, 50 ],
+								"caption": "@PLEASE_LOGIN",
+								"mBackgroundVisible": false
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "WelcomeTextFields",
+								"fixedSize": [ 256, 100 ],
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 1,
+									"rows": 2,
+									"margin": 0,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eMiddle", "eMiddle" ],
+									"hAlignment": [ "eMiddle", "eMiddle" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "WelcomeUsername",
+										"editable" : true,
+										"value" : "username",
+										"defaultValue": "username",
+										"committed": true,
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eLeft",
+										"fixedSize": [ 256, 30 ],
+										"resetOnClick": true
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "WelcomePassword",
+										"editable" : true,
+										"value" : "password",
+										"defaultValue" : "password",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eLeft",
+										"fixedSize": [ 256, 30 ],
+										"passwordField": true,
+										"resetOnClick": true
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "WelcomeButtons",
+								"fixedSize": [256, 100],
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 2,
+									"rows": 3,
+									"margin": 20,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eMiddle", "eMiddle", "eMiddle", "eMiddle", "eMiddle", "eMiddle" ],
+									"hAlignment": [ "eMiddle", "eMiddle", "eMiddle", "eMiddle", "eMiddle", "eMiddle" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UIButton",
+										"name": "btnSignUp",
+										"caption": "@SIGN_UP",
+										"fixedSize": [ 105, 38 ],
+										"action": "SignUp",
+										"fontSize": 20
+									},
+									{
+										"type": "class Framework::GUI::UIButton",
+										"name": "btnLogin",
+										"caption": "@LOGIN",
+										"fixedSize": [ 105, 38 ],
+										"action": "Login",
+										"backgroundColor": [255, 100, 0, 255],
+										"textColor": [255, 255, 255, 255],
+										"fontSize": 20
+									},
+									{
+										"type": "class Framework::GUI::UIWidget",
+										"name": "WelcomeButtonsGap1",
+										"fixedSize": [105, 30]
+									},
+									{
+										"type": "class Framework::GUI::UIWidget",
+										"name": "WelcomeButtonsGap2",
+										"fixedSize": [105, 30]
+									},
+									{
+										"type": "class Framework::GUI::UIButton",
+										"name": "btnForgotPassword",
+										"caption": "@FORGOT_PASSWORD",
+										"fixedSize": [ 105, 20 ],
+										"action": "ForgotPassword",
+										"fontSize": 16
+									},
+									{
+										"type": "class Framework::GUI::UICheckBox",
+										"name": "btnStayLoggedIn",
+										"caption": "@STAY_LOGGED_IN",
+										"alignment": "eLeft",
+										"fixedSize": [ 105, 20 ],
+										"fontsize" : 16
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "WelcomePanelRight",
+						"fixedSize": [ 600, 690 ]
+					}
+				]
+			}
+		]	
+    }
+]

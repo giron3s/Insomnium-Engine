@@ -1,0 +1,198 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndFTUE",
+        "title": "",
+        "modal" :  true,
+        "centered" :  true,
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 1,
+            "rows": 4,
+            "margin": 10,
+            "orientation" :  "eHorizontal",
+            "vAlignment": [ "eFill", "eFill" ],
+            "hAlignment": [ "eMinimum", "eFill" ]
+        },
+        "child":
+        [
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "FTUEROW1",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 2,
+                    "rows": 1,
+                    "margin": 0,
+                    "orientation" :  "eHorizontal",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eMinimum", "eFill" ]
+                },
+				"child":
+                [
+                    {
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "FTUEHeading",
+                        "caption": "@START",
+						"fontsize" : 20,
+						"fixedSize": [ 620, 30 ]
+                    },
+					{
+						"type": "class Framework::GUI::UIButton",
+						"name": "FTUECloseBtn",
+						"fixedSize": [ 30, 30 ],
+						"action": "FTUEClose",
+						"icon": 61814
+					}
+                ]
+            },
+			{
+                "type": "class Framework::GUI::UIWidget",
+                "name": "FTUEROW2",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 1,
+                    "rows": 1,
+                    "margin": 0,
+                    "orientation" :  "eHorizontal",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eMinimum", "eFill" ]
+                },
+				"child":
+                [
+                    {
+                        "type": "class Framework::GUI::UILabel",
+                        "name": "FTUEText",
+                        "caption": "",
+						"fontsize" : 16,
+						"fixedSize": [ 600, 70 ]
+                    }
+                ]
+            },
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "FTUEROW3",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 3,
+                    "rows": 1,
+                    "margin": 0,
+                    "orientation" :  "eVertical",
+                    "vAlignment": [ "eMiddle", "eFill", "eMiddle" ],
+                    "hAlignment": [ "eFill", "eFill", "eFill" ]
+                },
+				"child":
+                [
+					{
+						"type": "class Framework::GUI::UIButton",
+						"name": "FTUEPrevBtn",
+						"fixedSize": [ 50, 40 ],
+						"action": "FTUEPrev",
+						"icon": 61720
+					},
+                    {
+                        "type": "class Framework::GUI::UIImageView",
+                        "name": "FTUEImage",
+						"fixedSize": [ 550, 350 ],
+						"icon": "chair1"
+                    },
+					{
+						"type": "class Framework::GUI::UIButton",
+						"name": "FTUENextBtn",
+						"fixedSize": [ 50, 40 ],
+						"action": "FTUENext",
+						"icon": 61725
+					}
+                ]
+            },
+			{
+                "type": "class Framework::GUI::UIWidget",
+                "name": "FTUEROW4",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 2,
+                    "rows": 1,
+                    "margin": 0,
+                    "orientation" :  "eHorizontal",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eFill", "eFill" ]
+                },
+				"child":
+                [ 
+					{
+						"type": "class Framework::GUI::UICheckBox",
+						"name": "FTUEDontShowNextTimeBtn",
+						"caption": "@DONT_SHOW_NEXT_TIME",
+						"alignment": "eRight",
+						"fixedSize": [ 280, 20 ],
+						"fontsize" : 16,
+						"action": "FTUEDontShowNexTime"
+					},
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "FTUEPageIndicator",
+						"fixedSize": [ 330, 20 ],
+						"layout":
+						{
+							"type": "GridLayout",
+							"columns": 5,
+							"rows": 1,
+							"margin": 0,
+							"orientation" :  "eHorizontal",
+							"vAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill" ],
+							"hAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill" ]
+						},
+						"child":
+						[
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "FTUEPageBtn1",
+								"icon": 61824,
+								"fixedSize": [ 20, 20 ],
+								"mBackgroundVisible": false,
+								"action": "FTUEGotoPage0"
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "FTUEPageBtn2",
+								"icon": 61824,
+								"fixedSize": [ 20, 20 ],
+								"mBackgroundVisible": false,
+								"action": "FTUEGotoPage1"
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "FTUEPageBtn3",
+								"icon": 61824,
+								"fixedSize": [ 20, 20 ],
+								"mBackgroundVisible": false,
+								"action": "FTUEGotoPage2"
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "FTUEPageBtn4",
+								"icon": 61824,
+								"fixedSize": [ 20, 20 ],
+								"mBackgroundVisible": false,
+								"action": "FTUEGotoPage3"
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "FTUEPageBtn5",
+								"icon": 61824,
+								"fixedSize": [ 20, 20 ],
+								"mBackgroundVisible": false,
+								"action": "FTUEGotoPage4"
+							}
+						]
+					}
+                ]
+            }
+        ]
+    }
+]

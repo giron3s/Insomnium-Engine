@@ -1,0 +1,60 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndObjectEditorCancel",
+        "title": "@CHANGES_WILL_BE_LOST",
+        "modal" :  true,
+        "centered" :  true,
+        "layout":
+        {
+            "type": "GridLayout",
+            "columns": 1,
+            "rows": 2,
+            "margin": 30,
+            "orientation" :  "eHorizontal",
+            "vAlignment": [ "eFill", "eFill" ],
+            "hAlignment": [ "eFill", "eFill" ]
+        },
+        "child":
+        [
+		    {
+                "type": "class Framework::GUI::UILabel",
+                "name": "txtObjName",
+                "caption": "@COMFIRMATION_CONTINUE",
+				"fontsize" : 20,
+				"fixedSize": [ 360, 70 ]
+            },
+            {
+                "type": "class Framework::GUI::UIWidget",
+                "name": "ObjectEditorCancelButtons",
+                "layout":
+                {
+                    "type": "GridLayout",
+                    "columns": 2,
+                    "rows": 1,
+                    "margin": 0,
+                    "orientation" :  "eHorizontal",
+                    "vAlignment": [ "eFill", "eFill" ],
+                    "hAlignment": [ "eMinimum", "eFill" ]
+                },
+				"child":
+                [
+				    {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnObjectEditorCancelYes",
+                        "caption": "@YES",
+                        "fixedSize": [ 180, 54 ],
+				        "action": "CancelObjectEditorYes"
+			        },
+			        {
+                        "type": "class Framework::GUI::UIButton",
+                        "name": "btnObjectEditorCancelNo",
+                        "caption": "@NO",
+                        "fixedSize": [ 180, 54 ],
+				        "action": "CancelObjectEditorNo"
+			        }
+                ]
+		    }
+        ]
+    }
+]

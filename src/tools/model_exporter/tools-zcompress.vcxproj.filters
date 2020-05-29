@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{50c189ec-de65-4adf-af09-985ac0809107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="precompiled.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="zcompress.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="zcompress.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\resources\textures\test.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\resources\shaders\imageview.frag" />
+    <None Include="data\resources\shaders\imageview.vert" />
+    <None Include="data\resources\states\welcome.state" />
+    <None Include="data\resources\ui\fileTab.ui" />
+    <None Include="data\resources\ui\title.ui" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,79 @@
+[
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_Rectangle",
+        "name": "roomshape_Rectangle",
+        "icon": "roomshape_Rectangle",
+        "prefabfile": "roomshape_Rectangle.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_Rectangle90",
+        "name": "roomshape_Rectangle90",
+        "icon": "roomshape_Rectangle90",
+        "prefabfile": "roomshape_Rectangle90.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_Square",
+        "name": "roomshape_Square",
+        "icon": "roomshape_Square",
+        "prefabfile": "roomshape_Square.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_L",
+        "name": "roomshape_L",
+        "icon": "roomshape_L",
+        "prefabfile": "roomshape_L.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_L90",
+        "name": "roomshape_L90",
+        "icon": "roomshape_L90",
+        "prefabfile": "roomshape_L90.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_L180",
+        "name": "roomshape_L180",
+        "icon": "roomshape_L180",
+        "prefabfile": "roomshape_L180.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_L270",
+        "name": "roomshape_L270",
+        "icon": "roomshape_L270",
+        "prefabfile": "roomshape_L270.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_Pentagon",
+        "name": "roomshape_Pentagon",
+        "icon": "roomshape_Pentagon",
+        "prefabfile": "roomshape_Pentagon.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_Pentagon90",
+        "name": "roomshape_Pentagon90",
+        "icon": "roomshape_Pentagon90",
+        "prefabfile": "roomshape_Pentagon90.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_Pentagon180",
+        "name": "roomshape_Pentagon180",
+        "icon": "roomshape_Pentagon180",
+        "prefabfile": "roomshape_Pentagon180.entity"
+    },
+    {
+        "group": "RoomShapes",
+        "id": "roomshape_Pentagon270",
+        "name": "roomshape_Pentagon270",
+        "icon": "roomshape_Pentagon270",
+        "prefabfile": "roomshape_Pentagon270.entity"
+    }
+]

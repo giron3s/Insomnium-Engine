@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{bd163e9c-5dd1-457e-b333-1c9391746fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\core">
+      <UniqueIdentifier>{8de488d7-ba0f-4a52-9266-4a5f2cb68331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\engine">
+      <UniqueIdentifier>{99964409-670f-4066-9bea-a2aef7fa9850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\graphic">
+      <UniqueIdentifier>{5d67c848-49dd-4af0-ab0e-d16e0deefbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\audio">
+      <UniqueIdentifier>{7353dc99-a57a-4917-ab3f-c5a45fc3bd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\core\serialization">
+      <UniqueIdentifier>{273131c9-2e4f-4f9b-902f-fe0060958b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\engine\components">
+      <UniqueIdentifier>{6bd4fb68-e3ad-4688-bb28-ff001b4ab3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\graphic\gui">
+      <UniqueIdentifier>{911cdc08-5538-44ca-b6c8-c84b43d6790f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\engine\fsm">
+      <UniqueIdentifier>{608b670a-e69b-4ad0-9ba9-caf33564ad16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\graphic\opengl">
+      <UniqueIdentifier>{39b6feac-327e-4294-bb85-c7465463aa17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\core\graphic">
+      <UniqueIdentifier>{b9d08699-86fd-4220-bd5b-c0863dc1d445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\graphic\procedural">
+      <UniqueIdentifier>{61fa5b81-7eea-4ca2-8d67-c6c1eeae902b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\config.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\timer.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="precompiled.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\audiomixer.cpp">
+      <Filter>Source\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\sound.cpp">
+      <Filter>Source\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="audio\music.cpp">
+      <Filter>Source\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="core\serialization\jsoncppbuild.cpp">
+      <Filter>Source\core\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\objectfactory.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\prefabmanager.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\gamecontroller.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\inputmanager.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="core\math.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\resourcemanager.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\common.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\label.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\layout.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\screen.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\theme.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\widget.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\window.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\nanogui_resources.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\popup.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\ui.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\button.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\checkbox.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\colorpicker.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\colorwheel.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\combobox.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\imagepanel.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\imageview.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\messagedialog.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\popupbutton.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\progressbar.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\slider.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\stackedwidget.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\tabheader.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\vscrollpanel.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\tabwidget.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\textbox.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\script.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\fsm\state.cpp">
+      <Filter>Source\engine\fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\fsm\statemachine.cpp">
+      <Filter>Source\engine\fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\entitymanager.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\entity.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\asset3d.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\camera.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\display.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\model3d.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\renderer.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\scene.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\shader.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\shadowmaprendertarget.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_shader.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_uniformblock.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="core\graphic\asset3dloaders.cpp">
+      <Filter>Source\core\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="core\graphic\zcompression.cpp">
+      <Filter>Source\core\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\renderablecmp.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_fontrenderer.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_shaderdirectlight.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_shadermaterial.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_shaderpointlight.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_shaderspotlight.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\flymotion.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\fontrender.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\freeflymotion.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\freetypefont.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\truetypefont.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_renderer.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\bentplane.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\circle.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\cube.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\cylinder.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\plane.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\proceduralutils.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\sphere.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\torus.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\triangle.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\directlightcmp.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\cameracmp.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\noaarendertarget.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\walkingmotion.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_filterrendertarget.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\pointlightcmp.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\spotlightcmp.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\texturedquad.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\drawrect.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\motioncmp.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\include\nanovg\nanovg.c">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\transformcmp.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\procedural\grid.cpp">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\PanAndZoomMotion.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\canvasgl.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\fsm\action.cpp">
+      <Filter>Source\engine\fsm</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_resources.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\asset2d.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="core\graphic\assettransform.cpp">
+      <Filter>Source\core\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\texture.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_rendertarget.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\rendertarget.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\directlight.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\pointlight.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\spotlight.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\light.cpp">
+      <Filter>Source\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\components\catalogcmp.cpp">
+      <Filter>Source\engine\components</Filter>
+    </ClCompile>
+    <ClCompile Include="core\FPS.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\logger.cpp">
+      <Filter>Source\core</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\gui\imagelabel.cpp">
+      <Filter>Source\graphic\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\languagemanager.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\project.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic\opengl\opengl_shadowmaprendertarget.cpp">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\CmpManager.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\CmpManagerRegistry.cpp">
+      <Filter>Source\engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\config.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\math.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\signal.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\timer.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\utils.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="precompiled.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="core\types.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\audiomixer.h">
+      <Filter>Source\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\sound.h">
+      <Filter>Source\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="audio\music.h">
+      <Filter>Source\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="core\serialization\serializableobject.h">
+      <Filter>Source\core\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\objectfactory.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="core\serialization\jsoncpputils.h">
+      <Filter>Source\core\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\prefabmanager.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\gamecontroller.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\inputmanager.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\resourcemanager.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\common.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\label.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\layout.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\screen.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\theme.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\widget.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\window.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="core\opengl.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\nanogui_resources.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\glad\include\KHR\khrplatform.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\uiobject.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\popup.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ui.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\button.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\checkbox.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\colorpicker.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\colorwheel.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\combobox.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\imagepanel.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\imageview.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\messagedialog.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\popupbutton.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\progressbar.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\slider.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\stackedwidget.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\tabheader.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\toolbutton.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\vscrollpanel.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\entypo.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\alignment.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\orientation.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\buttontype.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\iconposition.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\tabwidget.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\textbox.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\script.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\fsm\action.h">
+      <Filter>Source\engine\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\fsm\state.h">
+      <Filter>Source\engine\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\fsm\statemachine.h">
+      <Filter>Source\engine\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\entitymanager.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\basecmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\componenttype.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\entity.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\asset3d.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\boundingbox.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\boundingsphere.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\camera.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\directlight.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\display.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\light.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\material.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\model3d.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\object3d.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\pointlight.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\projection.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\renderer.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\rendertarget.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\scene.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\shader.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\shadowmaprendertarget.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\spotlight.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\texture.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\viewport.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_renderer.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_shader.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_shaderdirectlight.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_shadermaterial.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_shaderpointlight.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_shaderspotlight.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_uniformblock.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="core\graphic\asset3dloaders.h">
+      <Filter>Source\core\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="core\graphic\zcompression.h">
+      <Filter>Source\core\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\renderablecmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_fontrenderer.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\flymotion.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\fontrender.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\freeflymotion.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\freetypefont.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\motion.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\noaarendertarget.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\truetypefont.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\bentplane.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\circle.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\cube.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\cylinder.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\plane.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\proceduralutils.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\sphere.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\torus.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\triangle.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\directlightcmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\cameracmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\walkingmotion.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_filterrendertarget.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\pointlightcmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\spotlightcmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\texturedquad.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\drawrect.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\motioncmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\object3dcmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\transformcmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\basemanager.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\managerfactory.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="core\any.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\dragdropdata.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\procedural\grid.h">
+      <Filter>Source\graphic\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\PanAndZoomMotion.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\canvasgl.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_resources.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\asset2d.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\model.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\model2d.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="core\graphic\assettransform.h">
+      <Filter>Source\core\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\object2d.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\object.h">
+      <Filter>Source\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_rendertarget.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_noaarendertarget.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\components\catalogcmp.h">
+      <Filter>Source\engine\components</Filter>
+    </ClInclude>
+    <ClInclude Include="core\FPS.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\logger.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\gui\imagelabel.h">
+      <Filter>Source\graphic\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\container.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\containerfactory.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\languagemanager.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\project.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic\opengl\opengl_shadowmaprendertarget.h">
+      <Filter>Source\graphic\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="core\profiler.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\CmpManager.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\CmpManagerRegistry.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ICmpManager.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\message.h">
+      <Filter>Source\engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

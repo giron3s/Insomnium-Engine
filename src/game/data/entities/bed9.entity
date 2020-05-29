@@ -1,0 +1,27 @@
+{
+    "prefabdefinition" :
+    {
+        "type": "class Framework::Entity",
+        "name": "bed9.entity",
+        "components": 
+        [
+            {
+                "type": "class Framework::RenderableCmp",
+                "model3d": "bed9",
+                "shadowcaster": true
+            },
+            {
+                "type": "class Framework::TransformCmp",
+                "position": [ 0.0, 0.0, 0.0 ],
+                "scale": [ 100.0, 100.0, 100.0 ]
+            },
+            {
+                "type": "class Framework::CatalogCmp",
+                "id": "bed9",
+                "name": "Double Bed",
+                "group": "Beds",
+                "icon": "bed9"
+            }
+        ]
+    }
+}

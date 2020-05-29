@@ -1,0 +1,30 @@
+{
+    "ftuepages": 
+    [
+        {
+            "image": "FTUEImage1",
+            "heading": "@FTUEHEADING1",
+			"text": "@FTUETEXT1"
+        },
+		{
+            "image": "FTUEImage2",
+            "heading": "@FTUEHEADING2",
+			"text": "@FTUETEXT2"
+        },
+		{
+            "image": "FTUEImage3",
+            "heading": "@FTUEHEADING3",
+			"text": "@FTUETEXT3"
+        },
+		{
+            "image": "FTUEImage4",
+            "heading": "@FTUEHEADING4",
+			"text": "@FTUETEXT4"
+        },
+		{
+            "image": "FTUEImage5",
+            "heading": "@FTUEHEADING5",
+			"text": "@FTUETEXT5"
+        }
+    ]
+}

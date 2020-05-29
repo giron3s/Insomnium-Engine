@@ -1,0 +1,30 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndExample4",
+        "title": "Example4",
+        "enable": true,
+        "position": [ 15, 15 ],
+        "visible": true,
+        "layout": 
+        {
+            "type": "GroupLayout"
+        },
+        "child": 
+        [
+            {
+                "type": "class Framework::GUI::UICanvasGL",
+                "name": "canvasGL",
+                "backgroundColor": [ 0.3921, 0.3921, 0.3921, 1.0 ],
+                "position": [ 0, 0 ],
+                "size": [ 800, 600 ],
+                "scene": "data/resources/projects/project1.sh3d"
+            },
+            {
+                "type": "class Framework::GUI::UIButton",
+                "name": "btnRndColor",
+                "caption": "Random Color"
+            }
+        ]
+    }
+]

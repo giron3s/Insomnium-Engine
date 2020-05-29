@@ -1,0 +1,26 @@
+{
+    "prefabdefinition" :
+    {
+        "type": "class Framework::Entity",
+        "name": "roomshape_Rectangle.entity",
+        "components": 
+        [
+            {
+                "type": "class Framework::RenderableCmp",
+                "model3d": "roomshape_Rectangle",
+				"flags": 65536
+            },
+            {
+                "type": "class Framework::TransformCmp",
+                "scale": [ 100.0, 100.0, 100.0 ]
+            },
+			{
+                "type": "class Framework::CatalogCmp",
+				"id": "roomshape_Rectangle",
+                "name": "roomshape_Rectangle",
+				"group": "RoomShapes",
+				"icon": "data/resources/textures/roomshapes/icons/Rectangle_icon.jpg"
+            }
+        ] 
+    }
+}

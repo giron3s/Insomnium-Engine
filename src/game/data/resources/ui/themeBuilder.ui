@@ -1,0 +1,930 @@
+[
+    {
+        "type": "class Framework::GUI::UIWindow",
+        "name": "wndThemeBuilder",
+        "title": "@THEMEBUILDER",
+        "modal" :  true,
+        "centered" :  true,
+		"layout":
+		{
+			"type": "GridLayout",
+			"columns": 2,
+			"rows": 1,
+			"margin": 0,
+			"orientation" :  "eHorizontal",
+			"vAlignment": [ "eFill", "eFill", "eFill", "eFill" ],
+			"hAlignment": [ "eMinimum", "eMinimum", "eMinimum", "eMinimum" ]
+		},
+        "child":
+        [
+			{
+				"type": "class Framework::GUI::UIWidget",
+				"name": "ThemeDisplayWidget",
+				"fixedSize": [550, 630],
+				"layout":
+				{
+					"type": "GridLayout",
+					"columns": 1,
+					"rows": 2,
+					"margin": 10,
+					"orientation" :  "eHorizontal",
+					"vAlignment": [ "eFill", "eFill" ],
+					"hAlignment": [ "eMinimum", "eMinimum" ]
+				},
+				"child":
+				[
+					{
+						"type": "class Framework::GUI::UITabWidget",
+						"name": "tabThemeElements",
+						"fixedSize": [500, 550],
+						"tabSize": [200, 50],
+						"tabCaptions": [ "@SIZES", "@COLORS", "@WINDOWCOLORS", "@FONTS" ],
+						"activeTab": 0,
+						"tabContents":
+						[
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "TabSizes",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 2,
+									"rows": 3,
+									"margin": 20,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ],
+									"hAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "StandardFontSize",
+										"caption": "@STANDARDFONTSIZE",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "StandardFontSizeValue",
+										"editable" : true,
+										"value" : "16",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonFontSize",
+										"caption": "@BUTTONFONTSIZE",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "ButtonFontSizeValue",
+										"editable" : true,
+										"value" : "20",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "TextBoxFontSize",
+										"caption": "@TEXTBOXFONTSIZE",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "TextBoxFontSizeValue",
+										"editable" : true,
+										"value" : "20",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "IconScale",
+										"caption": "@ICONSCALE",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "IconScaleValue",
+										"editable" : true,
+										"value" : "0.77",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonCornerRadius",
+										"caption": "@BUTTONCORNERRADIUS",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "ButtonCornerRadiusValue",
+										"editable" : true,
+										"value" : "2",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowCornerRadius",
+										"caption": "@WINDOWCORNERRADIUS",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "WindowCornerRadiusValue",
+										"editable" : true,
+										"value" : "2",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowHeaderHeight",
+										"caption": "@WINDOWHEADERHEIGHT",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "WindowHeaderHeightValue",
+										"editable" : true,
+										"value" : "30",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowDropShadowSize",
+										"caption": "@WINDOWDROPSHADOWSIZE",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "WindowDropShadowSizeValue",
+										"editable" : true,
+										"value" : "10",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "TabColors",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 2,
+									"rows": 4,
+									"margin": 20,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill", "eFill", "eFill" ],
+									"hAlignment": [ "eMinimum", "eFill", "eFill", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "DropShadowColor",
+										"caption": "@DROPSHADOW",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "DropShadowColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "DropShadow",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "TransparentColor",
+										"caption": "@TRANSPARENTCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "TransparentColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "Transparent",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "BorderDarkColor",
+										"caption": "@BORDERCOLORDARK",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "BorderDarkColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "BorderDark",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "BorderLightColor",
+										"caption": "@BORDERCOLORLIGHT",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "BorderLightColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "BorderLight",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "BorderMediumColor",
+										"caption": "@BORDERCOLORMEDIUM",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "BorderMediumColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "BorderMedium",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "TextColor",
+										"caption": "@TEXTCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "TextColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "Text",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "TextDisabledColor",
+										"caption": "@TEXTDISABLEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "TextDisabledColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "TextDisabled",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "TextShadowColor",
+										"caption": "@TEXTSHADOWCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "TextShadowColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "TextShadow",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "IconColor",
+										"caption": "@ICONCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "IconColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "Icon",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonGradientTopFocusedColor",
+										"caption": "@BUTTONGRADIENTTOPFOCUSEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "ButtonGradientTopFocusedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "ButtonGradientTopFocused",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonGradientBottomFocusedColor",
+										"caption": "@BUTTONGRADIENTBOTTOMFOCUSEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "ButtonGradientBottomFocusedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "ButtonGradientBottomFocused",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonGradientTopUnfocusedColor",
+										"caption": "@BUTTONGRADIENTTOPUNFOCUSEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "ButtonGradientTopUnfocusedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "ButtonGradientTopUnfocused",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonGradientBottomUnfocusedColor",
+										"caption": "@BUTTONGRADIENTBOTTOMUNFOCUSEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "ButtonGradientBottomUnfocusedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "ButtonGradientBottomUnfocused",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonGradientTopPushedColor",
+										"caption": "@BUTTONGRADIENTTOPPUSHEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "ButtonGradientTopPushedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "ButtonGradientTopPushed",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonGradientBottomPushedColor",
+										"caption": "@BUTTONGRADIENTBOTTOMPUSHEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "ButtonGradientBottomPushedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "ButtonGradientBottomPushed",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "TabWindowColors",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 2,
+									"rows": 4,
+									"margin": 20,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ],
+									"hAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowFillFocusedColor",
+										"caption": "@WINDOWFILLFOCUSEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowFillFocusedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowFillFocused",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowFillUnfocusedColor",
+										"caption": "@WINDOWFILLUNFOCUSEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowFillUnfocusedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowFillUnfocused",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowTitleFocusedColor",
+										"caption": "@WINDOWTITLEFOCUSEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowTitleFocusedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowTitleFocused",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowTitleUnfocusedColor",
+										"caption": "@WINDOWTITLEUNFOCUSEDCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowTitleUnfocusedColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowTitleUnfocused",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowHeaderGradientTopColor",
+										"caption": "@WINDOWHEADERGRADIENTTOPCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowHeaderGradientTopColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowHeaderGradientTop",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowHeaderGradientBottomColor",
+										"caption": "@WINDOWHEADERGRADIENTBOTTOMCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowHeaderGradientBottomColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowHeaderGradientBottom",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowHeaderSepTopColor",
+										"caption": "@WINDOWHEADERSEPTOPCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowHeaderSepTopColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowHeaderSepTop",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowHeaderSepBottomColor",
+										"caption": "@WINDOWHEADERSEPBOTTOMCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowHeaderSepBottomColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowHeaderSepBottom",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowPopupColor",
+										"caption": "@WINDOWPOPUPCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowPopupColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowPopup",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "WindowPopupTransparentColor",
+										"caption": "@WINDOWPOPUPTRANSPARENTCOLOR",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UIColorPicker",
+										"name": "WindowPopupTransparentColorBtn",
+										"caption": "",
+										"fixedSize": [ 180, 30 ],
+										"action": "WindowPopupTransparent",
+										"backgroundColor": [0.5, 0.0, 0.0, 0.8]
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "TabFonts",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 2,
+									"rows": 3,
+									"margin": 20,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ],
+									"hAlignment": [ "eFill", "eFill", "eFill", "eFill", "eFill", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "LabelFont",
+										"caption": "@LABELFONT",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "LabelFontValue",
+										"editable" : true,
+										"value" : "spectral",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "ButtonFont",
+										"caption": "@BUTTONFONT",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "ButtonFontValue",
+										"editable" : true,
+										"value" : "spectral-bold",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "HeadingFont",
+										"caption": "@HEADINGFONT",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "HeadingFontValue",
+										"editable" : true,
+										"value" : "spectral-bold",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "TextboxFont",
+										"caption": "@TEXTBOXFONT",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "TextboxFontValue",
+										"editable" : true,
+										"value" : "spectral",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "TabHeadingFont",
+										"caption": "@TABHEADINGFONT",
+										"fontsize" : 16,
+										"fixedSize": [ 240, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "TabHeadingFontValue",
+										"editable" : true,
+										"value" : "spectral-bold",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "class Framework::GUI::UIWidget",
+						"name": "ThemeDisplayWidget",
+						"fixedSize": [500, 500],
+						"layout":
+						{
+							"type": "GridLayout",
+							"columns": 3,
+							"rows": 1,
+							"margin": 10,
+							"orientation" :  "eHorizontal",
+							"vAlignment": [ "eFill", "eFill", "eFill" ],
+							"hAlignment": [ "eMinimum", "eMinimum", "eMinimum" ]
+						},
+						"child":
+						[
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "btnSaveTheme",
+								"caption": "@SAVETHEME",
+								"fixedSize": [ 155, 40 ],
+								"action": "SaveTheme"
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "btnSaveTheme",
+								"caption": "@LOADTHEME",
+								"fixedSize": [ 155, 40 ],
+								"action": "LoadTheme"
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "btnCancelTheme",
+								"caption": "@CLOSE",
+								"fixedSize": [ 155, 40 ],
+								"action": "CancelTheme"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "class Framework::GUI::UIWidget",
+				"name": "ThemeDisplayWidget",
+				"fixedSize": [500, 600],
+				"layout":
+				{
+					"type": "GridLayout",
+					"columns": 1,
+					"rows": 1,
+					"margin": 10,
+					"orientation" :  "eHorizontal",
+					"vAlignment": [ "eMinimum" ],
+					"hAlignment": [ "eMinimum" ]
+				},
+				"child":
+				[
+					{
+						"type": "class Framework::GUI::UIWindow",
+						"name": "ThemeDisplayWindow",
+						"title": "@SAMPLEWINDOW",
+						"layout":
+						{
+							"type": "GridLayout",
+							"columns": 2,
+							"rows": 2,
+							"margin": 30,
+							"orientation" :  "eHorizontal",
+							"vAlignment": [ "eFill", "eFill" ],
+							"hAlignment": [ "eMinimum", "eFill" ]
+						},
+						"child":
+						[
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "ObjectEditorLabels",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 1,
+									"rows": 6,
+									"margin": 0,
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill" ],
+									"hAlignment": [ "eMinimum", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "txtObjName",
+										"caption": "@NAME",
+										"fixedSize": [ 180, 54 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "txtObjType",
+										"caption": "@TYPE",
+										"fixedSize": [ 180, 54 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "txtObjDepth",
+										"caption": "@DEPTH",
+										"fixedSize": [ 180, 54 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "txtObjElevation",
+										"caption": "@ELEVATION",
+										"fixedSize": [ 180, 54 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "txtObjRotation",
+										"caption": "@ROTATION",
+										"fixedSize": [ 180, 54 ]
+									},
+									{
+										"type": "class Framework::GUI::UILabel",
+										"name": "txtObjAspectRatio",
+										"caption": "@MAINTAIN_ASPECT_RATIO",
+										"fixedSize": [ 180, 54 ]
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UIWidget",
+								"name": "ObjectEditorTextfields",
+								"layout":
+								{
+									"type": "GridLayout",
+									"columns": 1,
+									"rows": 6,
+									"margin": 0,
+									"spacing" : [0, 24],
+									"orientation" :  "eHorizontal",
+									"vAlignment": [ "eFill", "eFill" ],
+									"hAlignment": [ "eMinimum", "eFill" ]
+								},
+								"child":
+								[
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "inpObjName",
+										"editable" : true,
+										"value" : "NewObject",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "inpObjType",
+										"editable" : true,
+										"value" : "Default",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "inpObjDepth",
+										"editable" : true,
+										"value" : "50",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "inpObjElevation",
+										"editable" : true,
+										"value" : "0",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type": "class Framework::GUI::UITextBox",
+										"name": "inpObjRotation",
+										"editable" : true,
+										"value" : "0",
+										"units" : "%",
+										"fontSize" : 20,
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									},
+									{
+										"type" : "class Framework::GUI::UICheckBox",
+										"name" : "cboxAspectRatio",
+										"caption" : "",
+										"alignment": "eRight",
+										"fixedSize": [ 180, 30 ]
+									}
+								]
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "btnSaveObjectEditor",
+								"caption": "@SAMPLEBUTTON",
+								"fixedSize": [ 180, 54 ]
+							},
+							{
+								"type": "class Framework::GUI::UIButton",
+								"name": "btnCancelObjectEditor",
+								"caption": "@SAMPLEBUTTON",
+								"fixedSize": [ 180, 54 ]
+							}
+						]
+					}
+				]
+			}
+        ]
+    }
+]

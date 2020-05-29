@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.debug.1317885472">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.debug.1317885472" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/extern"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/extern/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="extern" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.so.debug.1317885472" name="Debug" parent="cdt.managedbuild.config.gnu.so.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.debug.1352962994" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.debug.116171795" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.debug"/>
+							<builder buildPath="${workspace_loc:/extern}/Debug" id="cdt.managedbuild.target.gnu.builder.so.debug.2012301180" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.so.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1491304323" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.1298430335" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug">
+								<option id="gnu.cpp.compiler.so.debug.option.optimization.level.1916831578" name="Optimization Level" superClass="gnu.cpp.compiler.so.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.so.debug.option.debugging.level.936809770" name="Debug Level" superClass="gnu.cpp.compiler.so.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.1392560015" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.1824820784" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.other.pic.1438475302" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.other.verbose.1716586348" name="Verbose (-v)" superClass="gnu.cpp.compiler.option.other.verbose" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2080626545" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.so.debug.option.optimization.level.419120051" name="Optimization Level" superClass="gnu.c.compiler.so.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.so.debug.option.debugging.level.1596500934" name="Debug Level" superClass="gnu.c.compiler.so.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.pic.587530350" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.misc.verbose.1969341002" name="Verbose (-v)" superClass="gnu.c.compiler.option.misc.verbose" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.dialect.std.980434000" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1478792853" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.debug.887171493" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug">
+								<option defaultValue="true" id="gnu.c.link.so.debug.option.shared.1785016422" name="Shared (-shared)" superClass="gnu.c.link.so.debug.option.shared" valueType="boolean"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.540753284" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.debug">
+								<option defaultValue="true" id="gnu.cpp.link.so.debug.option.shared.1946763188" name="Shared (-shared)" superClass="gnu.cpp.link.so.debug.option.shared" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.link.option.libs.1734219285" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.704376715" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.so.debug.438267182" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.616028864" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.2138788126" name="/" resourcePath="include/nanovg">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.debug.1635981685" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.debug" unusedChildren="">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.debug" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1561102346" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base.1491304323"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.156431962" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.1298430335">
+								<option id="gnu.cpp.compiler.option.other.pic.1153187529" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.897871395" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1030774544" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1785166785" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.debug.1948518245" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug.887171493"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.2000459907" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.540753284"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.so.debug.1192905018" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.debug.438267182">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1042573667" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1854443936" name="nanovg.c" rcbsApplicability="disable" resourcePath="include/nanovg/nanovg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1030774544.1842034756">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1030774544.1842034756" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1030774544"/>
+					</fileInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.116344402" name="/" resourcePath="libmysql++">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.debug.811582681" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.debug" unusedChildren="">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.debug" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1001974392" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base.1491304323"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.1148221240" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.1298430335">
+								<option id="gnu.cpp.compiler.option.include.paths.44800746" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/SDL2"/>
+									<listOptionValue builtIn="false" value="/usr/include/mysql++"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/extern/libmysql++/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/extern/lua/lua-5.3.2/src}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.107563619" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.338321563" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2130999003" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.debug.82069049" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug.887171493"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.75558430" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.540753284"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.so.debug.685570146" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.debug.438267182">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.142714463" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.917628988" name="llex.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/llex.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.943450079">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.943450079" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1002486659" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.287639523" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.67462739" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.413622701" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1300887208" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1586286838" name="lutf8lib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lutf8lib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.670464573">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.670464573" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1767193587" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.744973597" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1298625646" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1479294580" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.680025135" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1847670983" name="lua.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lua.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.521342393">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.521342393" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1448964342" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.998256436" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1666384393" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1360925967" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.523935963" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1169068966" name="luac.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/luac.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.477873512">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.477873512" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.731894046" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2109566214" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1840285639" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1565911030" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1342272573" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1590108036" name="ldo.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/ldo.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.2033046276">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.2033046276" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1582593687" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.927597566" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.386379840" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.484834541" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1181296873" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.750778375" name="lundump.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lundump.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.448044706">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.448044706" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1727839944" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.316714840" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1703132135" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1355337782" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1836040079" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1182406305" name="loadlib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/loadlib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.467501551">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.467501551" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1773492062" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.16511684" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1208568779" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.2017206733" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.47213499" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1150692660" name="lstrlib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lstrlib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.943597151">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.943597151" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1364875024" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.791761854" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.67438944" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1699126950" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1000060561" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1985365852" name="liolib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/liolib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.118955604">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.118955604" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1459022669" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.440615086" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.536394973" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.11952935" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.446229895" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1208641694" name="lcode.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lcode.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1596995769">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1596995769" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.115640444" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1712472926" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.803916773" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1367560423" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1585834507" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.272673481" name="lmathlib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lmathlib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1466027106">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1466027106" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1185933199" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.517054372" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1588897150" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1802288997" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.81015409" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1993472559" name="loslib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/loslib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1704752226">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1704752226" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.65933775" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1612553626" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.911569794" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1000634048" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.830550200" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1418738965" name="lzio.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lzio.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1364663134">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1364663134" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.2001968690" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1960113776" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.28093661" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.868306484" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1866272266" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1731474836" name="ldblib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/ldblib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.2138237712">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.2138237712" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1794798788" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1285074090" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1841464371" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.2050418858" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.74735028" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.58491646" name="lgc.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lgc.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.672234489">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.672234489" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.209333841" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1052289779" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1217344022" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1682358943" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1409849021" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1884122810" name="lopcodes.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lopcodes.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.36134711">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.36134711" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.741788041" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1660289500" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1377515561" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1151056378" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.142844621" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1687736238" name="lobject.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lobject.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1421898276">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1421898276" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.513055957" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2133094870" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.794301817" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.716081841" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.2072374575" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.813694744" name="lmem.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lmem.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.633856976">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.633856976" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1771779183" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.842470549" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1408821309" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.316149973" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.674975156" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1469476702" name="lparser.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lparser.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1931835173">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1931835173" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.ansi.2039545564" name="Support ANSI programs (-ansi)" superClass="gnu.c.compiler.option.misc.ansi" value="false" valueType="boolean"/>
+							<option id="gnu.c.compiler.option.misc.pic.245574130" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.676640577" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.495250926" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1208379131" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1324241146" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.67312903" name="lbitlib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lbitlib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.29892146">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.29892146" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1378592880" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1299799683" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.399448945" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.553582975" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.913256182" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.381401618" name="lcorolib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lcorolib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1935425478">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1935425478" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.812681662" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1626705352" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1186094769" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1817397542" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1717837998" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.694188459" name="lstring.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lstring.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.864538721">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.864538721" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.56013146" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1980867762" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.2029645336" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1439478854" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.246423829" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.2013223287" name="lstate.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lstate.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.2050043500">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.2050043500" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.165577139" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1616710474" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.775426921" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1816059540" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.836575624" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1362519384" name="ltablib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/ltablib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.199590406">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.199590406" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1183699225" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.642721426" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1779417916" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.450532728" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1428354432" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1831570799" name="lauxlib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lauxlib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.327729661">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.327729661" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1707853060" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2114369157" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.696715944" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1831280154" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.61623905" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1234831892" name="lvm.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lvm.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1039414140">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1039414140" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1469600365" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2033764578" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1324025477" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.4974254" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1075846410" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1944340846" name="lctype.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lctype.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.315808133">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.315808133" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1996270987" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.970349507" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.2106080963" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.236095745" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1289835398" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.333979001" name="ltm.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/ltm.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.894106728">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.894106728" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.656484267" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1161053227" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.757182738" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1625349990" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1535020877" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1619601175" name="lbaselib.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lbaselib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1836609128">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1836609128" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.523745546" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.580811381" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.930874723" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1131427661" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.220027050" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1722285516" name="lapi.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lapi.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.2096530196">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.2096530196" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.dialect.std.239756973" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+							<option id="gnu.c.compiler.option.misc.pic.986557324" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.509830215" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1421761086" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1148763830" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.2082938567" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.486783377" name="lfunc.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lfunc.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.559239195">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.559239195" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1583951862" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.770728773" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1629674574" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.786023170" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.723460245" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.879038950" name="ltable.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/ltable.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1023679283">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1023679283" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1142505013" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.579640521" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.34292845" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1038433902" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.577742797" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.104027284" name="ldump.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/ldump.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.739595690">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.739595690" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.2126310034" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2043003942" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.857847033" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1193922687" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.123914447" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.19678700" name="linit.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/linit.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.956289577">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.956289577" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1594456926" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1908212939" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1175724769" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1291061497" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.67128942" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.417290083" name="lapi.h" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/lapi.h" toolsToInvoke=""/>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.523493732" name="ldebug.c" rcbsApplicability="disable" resourcePath="lua/lua-5.3.2/src/ldebug.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1221241841">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432.1221241841" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+							<option id="gnu.c.compiler.option.misc.pic.1400475476" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1249912117" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1539626641" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1412348193" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.358186134" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.58166021" name="/" resourcePath="nanovg">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.debug.1511861208" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.debug" unusedChildren="">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.debug" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.153886783" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base.1491304323"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.717992369" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.1298430335">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.868245419" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.155180281" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432">
+								<option id="gnu.c.compiler.option.misc.pic.2073212501" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.misc.verbose.1283228714" name="Verbose (-v)" superClass="gnu.c.compiler.option.misc.verbose" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1164461369" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.debug.491821319" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug.887171493"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.695826577" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.540753284"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.so.debug.174123036" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.debug.438267182">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.964660014" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.so.debug.1317885472.1858267982" name="/" resourcePath="nanovg/example">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.debug.2044191227" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.debug" unusedChildren="">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.debug" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.110253327" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base.153886783"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.762601477" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.717992369">
+								<option id="gnu.cpp.compiler.option.include.paths.444171649" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2146857117" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.debug.1668483474" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.debug.155180281">
+								<option id="gnu.c.compiler.option.include.paths.607885639" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/nanovg/src}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1654041381" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.debug.2074734521" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug.491821319"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.1522400487" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.debug.695826577"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.so.debug.1508394832" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.debug.174123036">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.574240129" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="windows|glew-2.1.0|lua-intf|LuaIntf|lua|nanovg/example/example_gles3.c|nanovg/example/example_gles2.c|nanovg/example/example_gl3.c|nanovg/example/example_gl2.c|nanovg/example/example_fbo.c|glm|glfw-3.2.1|SDL2-2.0.4|SDL2_ttf-2.0.14|SDL2_mixer-2.0.1|SDL2_image-2.0.1|SDL_dependencies|jsoncpp-1.7.5|nanovg/example_gles3.c|nanovg/example_gles2.c|nanovg/example_gl3.c|nanovg/example_gl2.c|nanovg/example_fbo.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.so.release.1690186803">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.so.release.1690186803" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/extern"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/extern/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="extern" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.so.release.1690186803" name="Release" parent="cdt.managedbuild.config.gnu.so.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.so.release.1690186803." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.release.1051690039" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.release.1801174886" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.release"/>
+							<builder buildPath="${workspace_loc:/extern}/Release" id="cdt.managedbuild.target.gnu.builder.so.release.1254348577" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.so.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.397231647" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.release.2043761583" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.release">
+								<option id="gnu.cpp.compiler.so.release.option.optimization.level.488452643" name="Optimization Level" superClass="gnu.cpp.compiler.so.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.so.release.option.debugging.level.1259838622" name="Debug Level" superClass="gnu.cpp.compiler.so.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.1012855160" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.other.verbose.1286672909" name="Verbose (-v)" superClass="gnu.cpp.compiler.option.other.verbose" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.cpp.compiler.option.other.pic.78463005" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1645774877" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.1500814898" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.so.release.option.optimization.level.2119453386" name="Optimization Level" superClass="gnu.c.compiler.so.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.so.release.option.debugging.level.651038070" name="Debug Level" superClass="gnu.c.compiler.so.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.std.368419303" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.pic.550210662" name="Position Independent Code (-fPIC)" superClass="gnu.c.compiler.option.misc.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.misc.verbose.1486714862" name="Verbose (-v)" superClass="gnu.c.compiler.option.misc.verbose" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2024723192" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.release.2108900771" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.release">
+								<option defaultValue="true" id="gnu.c.link.so.release.option.shared.706506342" name="Shared (-shared)" superClass="gnu.c.link.so.release.option.shared" valueType="boolean"/>
+							</tool>
+							<tool command="g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.cpp.linker.so.release.1311796943" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.release">
+								<option defaultValue="true" id="gnu.cpp.link.so.release.option.shared.267602126" name="Shared (-shared)" superClass="gnu.cpp.link.so.release.option.shared" useByScannerDiscovery="false" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1804664841" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.so.release.604542995" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1431259565" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.so.release.1690186803.2017988755" name="/" resourcePath="include/nanovg">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.so.release.1129757763" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.so.release" unusedChildren="">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.so.release" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.so.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.271383186" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base.397231647"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.so.release.58944875" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.so.release.2043761583">
+								<option id="gnu.cpp.compiler.option.other.pic.2037951626" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.282364081" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.790196560" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.1500814898">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1757772631" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.release.620092472" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.release.2108900771"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.so.release.1850891796" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.so.release.1311796943"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.so.release.1204184730" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.so.release.604542995">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1477513235" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.so.release.1690186803.1142127517" name="nanovg.c" rcbsApplicability="disable" resourcePath="include/nanovg/nanovg.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.so.release.790196560.1542735404">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.so.release.790196560.1542735404" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.so.release.790196560"/>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1737132624" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.49586555" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.2066205279" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<sourceEntries>
+						<entry excluding="windows|glew-2.1.0|LuaIntf|lua|nanovg/example/example_gles3.c|nanovg/example/example_gles2.c|nanovg/example/example_gl3.c|nanovg/example/example_gl2.c|nanovg/example/example_fbo.c|Debug/glm|nanovg/example_gles3.c|nanovg/example_gles2.c|nanovg/example_gl3.c|nanovg/example_gl2.c|nanovg/example_fbo.c|glfw-3.2.1|glm|glew-2.0.0|SDL2-2.0.4|SDL2_ttf-2.0.14|SDL2_mixer-2.0.1|SDL2_image-2.0.1|SDL_dependencies|jsoncpp-1.7.5" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="extern.cdt.managedbuild.target.gnu.so.723313423" name="Shared Library" projectType="cdt.managedbuild.target.gnu.so"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.release.1690186803;cdt.managedbuild.config.gnu.so.release.1690186803.;cdt.managedbuild.tool.gnu.c.compiler.so.release.1500814898;cdt.managedbuild.tool.gnu.c.compiler.input.2024723192">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.1317885472;cdt.managedbuild.config.gnu.so.debug.1317885472.;cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.1298430335;cdt.managedbuild.tool.gnu.cpp.compiler.input.2080626545">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.debug.1317885472;cdt.managedbuild.config.gnu.so.debug.1317885472.;cdt.managedbuild.tool.gnu.c.compiler.so.debug.585891432;cdt.managedbuild.tool.gnu.c.compiler.input.1478792853">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.so.release.1690186803;cdt.managedbuild.config.gnu.so.release.1690186803.;cdt.managedbuild.tool.gnu.cpp.compiler.so.release.2043761583;cdt.managedbuild.tool.gnu.cpp.compiler.input.1645774877">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/extern"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/extern"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

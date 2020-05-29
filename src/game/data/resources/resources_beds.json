@@ -1,0 +1,65 @@
+{
+    "models": 
+    [
+        {
+            "name": "bed1",
+            "asset3d": "data/resources/models/bed1.model",
+			"asset2d": "data/resources/textures/furnitures/bed1_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed1_icon.jpg"
+        },
+        {
+            "name": "bed2",
+            "asset3d": "data/resources/models/bed2.model",
+			"asset2d": "data/resources/textures/furnitures/bed2_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed2_icon.jpg"
+        },		
+        {
+            "name": "bed3",
+            "asset3d": "data/resources/models/bed3.model",
+			"asset2d": "data/resources/textures/furnitures/bed3_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed3_icon.jpg"
+        },
+        {
+            "name": "bed4",
+            "asset3d": "data/resources/models/bed4.model",
+			"asset2d": "data/resources/textures/furnitures/bed4_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed4_icon.jpg"
+        },
+        {
+            "name": "bed5",
+            "asset3d": "data/resources/models/bed5.model",
+			"asset2d": "data/resources/textures/furnitures/bed5_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed5_icon.jpg"
+        },
+        {
+            "name": "bed6",
+            "asset3d": "data/resources/models/bed6.model",
+			"asset2d": "data/resources/textures/furnitures/bed6_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed6_icon.jpg"
+        },
+        {
+            "name": "bed7",
+            "asset3d": "data/resources/models/bed7.model",
+			"asset2d": "data/resources/textures/furnitures/bed7_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed7_icon.jpg"
+        },
+        {
+            "name": "bed8",
+            "asset3d": "data/resources/models/bed8.model",
+			"asset2d": "data/resources/textures/furnitures/bed8_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed8_icon.jpg"
+        },
+        {
+            "name": "bed9",
+            "asset3d": "data/resources/models/bed9.model",
+			"asset2d": "data/resources/textures/furnitures/bed9_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed9_icon.jpg"
+        },
+        {
+            "name": "bed10",
+            "asset3d": "data/resources/models/bed10.model",
+			"asset2d": "data/resources/textures/furnitures/bed10_wired.png",
+			"icon": "data/resources/textures/furnitures/icons/bed10_icon.jpg"
+        }
+    ]
+}
